@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Name=SHell profile
 Name[fr]=Profile du SHell
-Icon=/usr/share/icons/Tango/jwm/utilities-terminal.png
-Exec=leafpad /home/hacker/.profile
+Icon=xterm.png
+Exec=leafpad /home/user_name/.profile
 Type=Application
-Categories=Settings;DesktopSettings;GTK;
+Categories=Settings;DesktopSettings;

@@ -3,7 +3,6 @@
 windowwidth                    = 632
 windowheight                   = 550
 toppaneheight                  = 200
-fscurrentdir                   = /home/hacker/
 showhiddenfilesfs              = 0
 sortdirsfirst                  = 1
 scanforduplicatefiles          = 1
