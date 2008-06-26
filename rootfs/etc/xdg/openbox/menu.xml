@@ -151,6 +151,7 @@
         execute="/usr/lib/openbox/open-folder-menu.sh" />
   <menu id="desktop-effects" />
   <menu id="slitaz-live-menu" />
+  <menu id="documentation-menu" />
   <separator />
   <menu id="client-list-menu" />
   <menu id="openbox-menu" />
