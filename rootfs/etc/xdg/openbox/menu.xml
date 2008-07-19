@@ -19,14 +19,14 @@
   <item label="Text Editor">
     <action name="Execute"><command>leafpad</command></action>
   </item>
-  <item label="Images Viewer">
+  <item label="Image Viewer">
     <action name="Execute"><command>gpicview</command></action>
   </item>
 </menu>
 
 <!-- Desktop files -->
 <menu id="desktop-menu" label="Desktop Files &amp; Icons">
-  <item label="Create new direcory">
+  <item label="Create new directory">
     <action name="Execute"><command>desktopbox new-folder</command></action>
   </item>
   <item label="Create new file">
