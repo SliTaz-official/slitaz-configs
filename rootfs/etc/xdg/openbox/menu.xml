@@ -2,8 +2,8 @@
 
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
-<!-- Favorites applications -->
-<menu id="favorites-menu" label="Favorites Applications">
+<!-- Favorite applications -->
+<menu id="favorites-menu" label="Favorite Applications">
   <item label="File Manager">
     <action name="Execute"><command>pcmanfm</command></action>
   </item>
@@ -26,10 +26,10 @@
 
 <!-- Desktop files -->
 <menu id="desktop-menu" label="Desktop Files &amp; Icons">
-  <item label="Creat new direcory">
+  <item label="Create new direcory">
     <action name="Execute"><command>desktopbox new-folder</command></action>
   </item>
-  <item label="Creat new file">
+  <item label="Create new file">
     <action name="Execute"><command>desktopbox new-file</command></action>
   </item>
   <separator />
