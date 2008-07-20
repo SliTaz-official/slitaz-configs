@@ -1,16 +1,16 @@
 # This shell script is run before Openbox launches.
 # Environment variables set here are passed to the Openbox session.
 
-# DBUS message bus (automount removables devices)
+# DBUS message bus (automount removable devices)
 dbus-launch --exit-with-session &
 
-# Start PCmanFM as deamon for Wallpaper and desktop icons.
+# Start PCmanFM as daemon for wallpaper and desktop icons.
 pcmanfm -d &
 
 # Start the panel.
 lxpanel &
 
-# Start Pacellite clipboard.
+# Start Parcellite clipboard.
 #parcellite &
 
 # Desktop effects

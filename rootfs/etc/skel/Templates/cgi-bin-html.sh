@@ -19,7 +19,7 @@ echo -e "<body bgcolor=\"#ffffff\">"
 echo "<h1>HTML cgi-bin SHell script</h1>"
 echo "<hr>"
 echo "<p>"
-echo "This script is runnig on $HOST with a Linux kernel $RELEASE."
+echo "This script is running on $HOST with a Linux kernel $RELEASE."
 echo "</p>"
 
 # Footer.

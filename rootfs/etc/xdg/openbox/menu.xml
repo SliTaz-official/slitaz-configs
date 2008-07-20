@@ -3,7 +3,7 @@
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
 <!-- Favorites applications -->
-<menu id="favorites-menu" label="Favorites Applications">
+<menu id="favorites-menu" label="Favorite Applications">
   <item label="File Manager">
     <action name="Execute"><command>pcmanfm</command></action>
   </item>
