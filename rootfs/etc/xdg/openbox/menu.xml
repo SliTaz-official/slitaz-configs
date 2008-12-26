@@ -40,13 +40,13 @@
 
 <!-- Desktop effects -->
 <menu id="desktop-effects" label="Desktop Effects">
-  <item label="Active composite">
+  <item label="Activate composite">
     <action name="Execute"><command>xcompmgr</command></action>
   </item>
-  <item label="Active shadows">
+  <item label="Activate shadows">
     <action name="Execute"><command>xcompmgr -c -r 10</command></action>
   </item>
-  <item label="Active shadows/fade">
+  <item label="Activate shadows/fade">
     <action name="Execute"><command>xcompmgr -c -f -r 10</command></action>
   </item>
   <separator />
