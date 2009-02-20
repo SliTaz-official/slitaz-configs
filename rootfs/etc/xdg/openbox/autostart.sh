@@ -4,6 +4,9 @@
 # DBUS message bus (automount removable devices)
 dbus-launch --exit-with-session &
 
+# Handel Hal events with ivman (notification with desktopbox).
+ivman &
+
 # Start PCmanFM as daemon for wallpaper and desktop icons.
 pcmanfm -d &
 

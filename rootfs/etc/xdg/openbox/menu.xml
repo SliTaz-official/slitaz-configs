@@ -72,6 +72,11 @@
     <action name="Execute"><command>subox tazlitobox</command></action>
   </item>
   <separator />
+  <item label="TazUSB LiveUSB Tool">
+    <action name="Execute">
+      <command>subox tazusbbox</command>
+    </action>
+  </item>
   <item label="TazUSB Writefs (gzip)">
     <action name="Execute">
       <command>subox "xterm -e tazusb writefs gzip"</command>
