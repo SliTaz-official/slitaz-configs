@@ -19,7 +19,7 @@ echo "<body>"
 echo "<h1>Web server cgi-bin tests</h1>"
 echo "<hr>"
 echo "<p>"
-echo "This script is runnig on $HOST with a Linux kernel $RELEASE."
+echo "This script is running on $HOST with a Linux kernel $RELEASE."
 echo "</p>"
 
 # Footer.

@@ -1,19 +1,19 @@
 # This shell script is run before Openbox launches.
 # Environment variables set here are passed to the Openbox session.
 
-# DBUS message bus (automount removables devices)
+# DBUS message bus (automount removable devices)
 dbus-launch --exit-with-session &
 
-# Handel Hal events with Ivman (notification with desktopbox).
+# Handle Hal events with Ivman (notification with desktopbox).
 ivman &
 
-# Start PCmanFM as deamon for Wallpaper and desktop icons.
+# Start PCmanFM as daemon for Wallpaper and desktop icons.
 pcmanfm -d &
 
-# Start the panel Freedesktop standard menu.
+# Start the Freedesktop panel standard menu.
 lxpanel &
 
-# Start Pacellite clipboard manager.
+# Start Parcellite clipboard manager.
 #parcellite &
 
 # Launch Xpad desktop notes utility.
