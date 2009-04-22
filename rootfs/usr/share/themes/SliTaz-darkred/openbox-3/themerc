@@ -3,7 +3,7 @@
 
 # General
 border.width: 1
-padding.width: 2
+padding.width: 3
 padding.height: 2
 window.handle.width: 2
 window.client.padding.width: 0
@@ -11,9 +11,9 @@ menu.overlap: 0
 *.justify: center
 *.bg.highlight: 50
 *.bg.shadow:    01
-*.title.bg: raised gradient vertical
-*.title.bg.color: #878787
-*.title.bg.colorTo: #595959
+*.title.bg: raised splitvertical gradient
+*.title.bg.color: #782020
+*.title.bg.colorTo: #6A0000
 
 # Menu settings (match GTK/Clearlooks colors)
 menu.title.text.color: #ffffff
@@ -31,31 +31,31 @@ menu.items.text.color: #111111
 menu.items.disabled.text.color: #aaaaaa
 
 # Window
-window.active.border.color: #333333
-window.inactive.border.color: #333333
+window.active.border.color: #222222
+window.inactive.border.color: #000000
 window.inactive.border.width: 10
-window.active.title.bg: raised gradient vertical
-window.active.title.bg.color: #878787
-window.active.title.bg.colorTo: #595959
+window.active.title.bg: raised splitvertical gradient
+window.active.title.bg.color: #782020
+window.active.title.bg.colorTo: #6A0000
 window.active.title.bg.highlight: 35
 window.active.title.bg.shadow:    00
-window.active.title.separator.color: #595959
-window.inactive.title.separator.color: #333333
-window.inactive.title.bg: raised gradient vertical
-window.inactive.title.bg.color: #111111
-window.inactive.title.bg.colorTo: #333333
+window.active.title.separator.color: #222222
+window.inactive.title.separator.color: #000000
+window.inactive.title.bg: raised splitvertical gradient
+window.inactive.title.bg.color: #484848
+window.inactive.title.bg.colorTo: #303030
 window.active.label.bg: Parentrelative
 window.active.label.text.color: #ffffff
 window.active.label.text.font:shadow=y:shadowtint=80:shadowoffset=1
 window.inactive.label.bg: Parentrelative
-window.inactive.label.text.color: #eeeeee
+window.inactive.label.text.color: #aaaaaa
 
 window.active.button.*.bg: Parentrelative
-window.active.button.*.image.color: #eeeeee
+window.active.button.*.image.color: #E5E5E5
 window.active.button.hover.bg: Parentrelative
 window.active.button.hover.image.color: #ffffff
 window.inactive.button.*.bg: Parentrelative
-window.inactive.button.*.image.color: #eeeeee
+window.inactive.button.*.image.color: #aaaaaa
 window.inactive.button.hover.image.color: #ffffff
 
 window.*.handle.bg: Raised solid
@@ -64,6 +64,6 @@ window.*.grip.bg: Raised solid
 window.*.grip.bg.color: #666666
 
 # OSD
-osd.bg: raised vertical gradient
-osd.bg.color: #878787
-osd.bg.colorTo: #595959
+osd.bg: raised splitvertical gradient
+osd.bg.color: #484848
+osd.bg.colorTo: #303030
