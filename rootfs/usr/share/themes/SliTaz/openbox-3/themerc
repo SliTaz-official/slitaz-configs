@@ -12,10 +12,10 @@ menu.overlap: 0
 *.bg.highlight: 50
 *.bg.shadow:    01
 *.title.bg: raised gradient vertical
-*.title.bg.color: #878787
-*.title.bg.colorTo: #595959
+*.title.bg.color: #7b705c
+*.title.bg.colorTo: #342812
 
-# Menu settings (match GTK/Clearlooks colors)
+# Menu settings (match SliTaz GTK/Clearlooks colors)
 menu.title.text.color: #ffffff
 menu.items.bg: flat
 menu.items.bg.color: #f9f7f3
@@ -24,46 +24,46 @@ menu.separator.color: #dcd8cf
 menu.border.color: #908266
 menu.border.width: 1
 menu.items.active.bg: raised vertical gradient
-menu.items.active.bg.color: #5598d7
-menu.items.active.bg.colorTo: #4B80B1
+menu.items.active.bg.color: #7b705c
+menu.items.active.bg.colorTo: #615a4d
 menu.items.active.text.color: white
-menu.items.text.color: #111111
-menu.items.disabled.text.color: #aaaaaa
+menu.items.text.color: #000000
+menu.items.disabled.text.color: #aeaeae
 
 # Window
-window.active.border.color: #333333
-window.inactive.border.color: #333333
+window.active.border.color: #342812
+window.inactive.border.color: #222222
 window.inactive.border.width: 10
 window.active.title.bg: raised gradient vertical
-window.active.title.bg.color: #878787
-window.active.title.bg.colorTo: #595959
+window.active.title.bg.color: #7b705c
+window.active.title.bg.colorTo: #342812
 window.active.title.bg.highlight: 35
 window.active.title.bg.shadow:    00
-window.active.title.separator.color: #595959
-window.inactive.title.separator.color: #333333
+window.active.title.separator.color: #342812
+window.inactive.title.separator.color: #888173
 window.inactive.title.bg: raised gradient vertical
-window.inactive.title.bg.color: #111111
-window.inactive.title.bg.colorTo: #333333
+window.inactive.title.bg.color: #a69f91
+window.inactive.title.bg.colorTo: #888173
 window.active.label.bg: Parentrelative
 window.active.label.text.color: #ffffff
 window.active.label.text.font:shadow=y:shadowtint=80:shadowoffset=1
 window.inactive.label.bg: Parentrelative
-window.inactive.label.text.color: #eeeeee
+window.inactive.label.text.color: #ffffff
 
 window.active.button.*.bg: Parentrelative
-window.active.button.*.image.color: #eeeeee
+window.active.button.*.image.color: #eaeaea
 window.active.button.hover.bg: Parentrelative
 window.active.button.hover.image.color: #ffffff
 window.inactive.button.*.bg: Parentrelative
-window.inactive.button.*.image.color: #eeeeee
+window.inactive.button.*.image.color: #eaeaea
 window.inactive.button.hover.image.color: #ffffff
 
 window.*.handle.bg: Raised solid
-window.*.handle.bg.color: #666666
+window.*.handle.bg.color: #342812
 window.*.grip.bg: Raised solid
-window.*.grip.bg.color: #666666
+window.*.grip.bg.color: #342812
 
 # OSD
 osd.bg: raised vertical gradient
-osd.bg.color: #878787
-osd.bg.colorTo: #595959
+osd.bg.color: #7b705c
+osd.bg.colorTo: #342812
