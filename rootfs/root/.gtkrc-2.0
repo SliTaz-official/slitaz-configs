@@ -8,6 +8,6 @@ gtk-theme-name = "SliTaz"
 #gtk-theme-name = "Clearlooks-DeepSky"
 #gtk-theme-name = "Clearlooks-Olive"
 
-gtk-icon-theme-name = "Tango"
+gtk-icon-theme-name = "SliTaz"
 
 gtk-font-name = "DejaVu Sans 11"
