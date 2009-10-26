@@ -5,8 +5,8 @@ README for slitaz-configs                                                  2009
 English
 -------
 SliTaz configs provide the files and images used by default on the core 
-LiveCD. A SliTaz package is generated from the wok and Tazwok. It gives 
-Openbox themes, an autostart script, menu and RC file. /usr/share contains 
+LiveCD. A SliTaz package is generated from the wok and Tazwok. It contains 
+Openbox themes, an autostart script, a menu and RC file. /usr/share contains 
 the Slim Login Manager theme and the desktop background of the moment.
 
 All artwork is done on SliTaz with mtPaint, The Gimp or Inkscape.
