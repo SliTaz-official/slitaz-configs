@@ -4,7 +4,7 @@
 */
 
 body {
-	background: #222222;
+	background: white;
 	color: black;
 	font: 13px sans-serif, vernada, arial;
 	margin: 0 0 0 0;
@@ -21,32 +21,18 @@ body {
 	/* margin-bottom: 30px; */
 }
 
+#header h1 {
+	padding: 10px;
+	text-align: center;
+}
+
 /* Page content */
 
-#content, #content_bottom, #content_top {
-	background: white;
-	color: black;
-	text-align: justify;
-}
-
-#content_top {
-	height: 14px;
-	margin: 10px 100px 0px 100px;
-}
 
 #content {
 	height: auto;
-	margin: -6px 100px 0px 100px;
+	margin: 10px 100px 0px 100px;
 	padding: 0px 72px 0px 72px;
-	/*background: white;
-	color: #333333;*/
-}
-
-#content_bottom {
-	height: 14px;
-	margin: 0px 100px 0px 100px;
-	/*clear: both;*/
-
 }
 
 #content li {
@@ -70,44 +56,11 @@ body {
 
 /* CSS class. */
 
-.top_left, .top_right, .bottom_left, .bottom_right {
-	height: 14px;
-	width: 14px;
-	color: white;
-	background-color: #333333;
-	background-repeat: no-repeat;
-}
-
-.top_left {
-	background-image: url(pics/content-tl.png);
-	background-position: left top;
-	position: absolute;
-}
-
-.top_right {
-	background-image: url(pics/content-tr.png);
-	float: right;
-}
-
-.bottom_left {
-	background-image: url(pics/content-bl.png);
-	position: absolute;
-}
-
-.bottom_right {
-	background-image: url(pics/content-br.png);
-	float: right;
-}
 
 /* HTML styles */
 
 h1 {
-	color: #DF8F06;
-	background: inherit;
-	text-align: center;
-	margin: 0px 0px 20px 0px;
-	padding: 10px 0px 10px 0px;
-	border-bottom: 1px solid #DF8F06;
+	margin: 0px 0px 0px 16px;
 }
 
 h2 {
