@@ -16,6 +16,10 @@
   <item label="Editor de Texto">
     <action name="Execute"><command>editor</command></action>
   </item>
+  <separator />
+  <item label="Configure favorite">
+    <action name="Execute"><command>desktopbox tazapps</command></action>
+  </item>
 </menu>
 
 <!-- Desktop files -->
@@ -62,8 +66,11 @@
 
 <!-- SliTaz Live (Tazlito e Tazusb) -->
 <menu id="slitaz-live-menu" label="SliTaz Live CD/USB">
-  <item label="Tazlito - Ferramenta LiveCD">
+  <item label="Tazlito Ferramenta LiveCD">
     <action name="Execute"><command>subox tazlitobox</command></action>
+  </item>
+  <item label="TazUSB LiveUSB Tool">
+    <action name="Execute"><command>subox tazusbbox</command></action>
   </item>
   <separator />
   <item label="TazUSB Writefs (gzip)">
@@ -83,35 +90,6 @@
   </item>
 </menu>
 
-<!-- Documentação do SliTaz -->
-<menu id="documentation-menu" label="Documentação">
-  <item label="Manual do Tazlito">
-    <action name="Execute">
-      <command>browser /usr/share/doc/tazlito/tazlito.html</command>
-    </action>
-  </item>
-  <item label="Manual do Tazpkg">
-    <action name="Execute">
-      <command>browser /usr/share/doc/tazpkg/tazpkg.html</command>
-    </action>
-  </item>
-  <item label="Manual do TazUSB">
-    <action name="Execute">
-      <command>browser /usr/share/doc/tazusb/tazusb.en.html</command>
-    </action>
-  </item>
-  <item label="Manual do Tazwok">
-    <action name="Execute">
-      <command>browser /usr/share/doc/tazwok/tazwok.html</command>
-    </action>
-  </item>
-  <item label="Licença Pública Geral GNU">
-    <action name="Execute">
-      <command>browser /usr/share/licenses/gpl.txt</command>
-    </action>
-  </item>
-</menu>
-
 <!-- Configuração do Openbox -->
 <menu id="openbox-menu" label="Openbox">
   <item label="Configuração do Openbox (GUI)">
@@ -119,7 +97,7 @@
   </item>
   <item label="Aplicações autoiniciadas">
     <action name="Execute">
-      <command>editor ~/.config/openbox/autostart.sh</command>
+      <command>desktopbox autostart</command>
     </action>
   </item>
   <item label="Menu do Openbox">
@@ -145,10 +123,8 @@
         execute="/usr/lib/openbox/open-folder-menu.sh" />
   <menu id="desktop-effects" />
   <menu id="slitaz-live-menu" />
-  <menu id="documentation-menu" />
-  <separator />
-  <menu id="client-list-menu" />
   <menu id="openbox-menu" />
+  <menu id="client-list-menu" />
   <separator />
   <item label="Sair">
     <action name="Execute"><command>desktopbox logout</command></action>
