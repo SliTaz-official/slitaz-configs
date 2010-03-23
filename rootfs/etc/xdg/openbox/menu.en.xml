@@ -17,7 +17,7 @@
     <action name="Execute"><command>editor</command></action>
   </item>
   <separator />
-  <item label="Configure favorite">
+  <item label="Configure favorites">
     <action name="Execute"><command>desktopbox tazapps</command></action>
   </item>
 </menu>
