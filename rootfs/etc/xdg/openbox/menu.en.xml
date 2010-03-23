@@ -5,22 +5,20 @@
 <!-- Favorite applications -->
 <menu id="favorites-menu" label="Favorite Applications">
   <item label="File Manager">
-    <action name="Execute"><command>pcmanfm</command></action>
+    <action name="Execute"><command>file-manager</command></action>
   </item>
   <item label="Terminal">
-    <action name="Execute"><command>xterm</command></action>
-  </item>
-  <item label="Mount Devices">
-    <action name="Execute"><command>subox mountbox</command></action>
+    <action name="Execute"><command>terminal</command></action>
   </item>
   <item label="Web Browser">
-    <action name="Execute"><command>firefox</command></action>
+    <action name="Execute"><command>browser</command></action>
   </item>
   <item label="Text Editor">
-    <action name="Execute"><command>leafpad</command></action>
+    <action name="Execute"><command>editor</command></action>
   </item>
-  <item label="Image Viewer">
-    <action name="Execute"><command>gpicview</command></action>
+  <separator />
+  <item label="Configure favorite">
+    <action name="Execute"><command>desktopbox tazapps</command></action>
   </item>
 </menu>
 
@@ -73,10 +71,9 @@
   </item>
   <separator />
   <item label="TazUSB LiveUSB Tool">
-    <action name="Execute">
-      <command>subox tazusbbox</command>
-    </action>
+    <action name="Execute"><command>subox tazusbbox</command></action>
   </item>
+  <separator />
   <item label="TazUSB Writefs (gzip)">
     <action name="Execute">
       <command>subox "xterm -e tazusb writefs gzip"</command>
@@ -94,35 +91,6 @@
   </item>
 </menu>
 
-<!-- SliTaz documentation -->
-<menu id="documentation-menu" label="Documentation">
-  <item label="Tazlito Manual">
-    <action name="Execute">
-      <command>firefox /usr/share/doc/tazlito/tazlito.html</command>
-    </action>
-  </item>
-  <item label="Tazpkg Manual">
-    <action name="Execute">
-      <command>firefox /usr/share/doc/tazpkg/tazpkg.html</command>
-    </action>
-  </item>
-  <item label="TazUSB Manual (en)">
-    <action name="Execute">
-      <command>firefox /usr/share/doc/tazusb/tazusb.en.html</command>
-    </action>
-  </item>
-  <item label="Tazwok Manual">
-    <action name="Execute">
-      <command>firefox /usr/share/doc/tazwok/tazwok.html</command>
-    </action>
-  </item>
-  <item label="GNU General Public License">
-    <action name="Execute">
-      <command>xterm -T "General Public License" -e less -M /usr/share/licenses/gpl.txt</command>
-    </action>
-  </item>
-</menu>
-
 <!-- Openbox configuration -->
 <menu id="openbox-menu" label="Openbox">
   <item label="ObConf">
@@ -130,12 +98,12 @@
   </item>
   <item label="Autostart Script">
     <action name="Execute">
-      <command>geany ~/.config/openbox/autostart.sh</command>
+      <command>desktopbox autostart</command>
     </action>
   </item>
   <item label="Openbox Menu">
     <action name="Execute">
-      <command>geany ~/.config/openbox/menu.xml</command>
+      <command>editor ~/.config/openbox/menu.xml</command>
     </action>
   </item>
   <separator />
@@ -156,10 +124,8 @@
         execute="/usr/lib/openbox/open-folder-menu.sh" />
   <menu id="desktop-effects" />
   <menu id="slitaz-live-menu" />
-  <menu id="documentation-menu" />
-  <separator />
-  <menu id="client-list-menu" />
   <menu id="openbox-menu" />
+  <menu id="client-list-menu" />
   <separator />
   <item label="Logout">
     <action name="Execute"><command>desktopbox logout</command></action>
