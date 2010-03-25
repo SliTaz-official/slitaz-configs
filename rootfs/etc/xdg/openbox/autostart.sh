@@ -10,6 +10,9 @@ ivman &
 # Start PCmanFM as daemon for Wallpaper and desktop icons.
 pcmanfm -d &
 
+# update lxpanel config
+sed -i "s/iface=.*/`grep \"iface=\" /etc/lxpanel/default/panels/panel`/" ~/.config/lxpanel/default/panels/panel
+
 # Start the Freedesktop panel standard menu.
 lxpanel &
 
