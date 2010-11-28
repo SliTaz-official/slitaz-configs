@@ -12,6 +12,7 @@ xterm*foreground:	white
 xterm*cursorColor:	#6AA2D8
 xterm*scrollBar:	off
 xterm*faceName:		DejaVu Sans Mono
+xterm*faceNameDoublesize:WenQuanYi WenQuanYi Micro Hei Mono-10
 xterm*faceSize:		9
 
 ! Xload settings.
