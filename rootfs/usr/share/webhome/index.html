@@ -1,64 +1,71 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <title>SliTaz - Web Homepage</title>
     <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
     <meta name="author" content="Christophe Lincoln"/>
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="slitaz.css" />
+	<style type="text/css">
+	.block_right { 
+		padding-bottom: 25px;
+	}
+	</style>
 </head>
 <body>
 
 <!-- Header -->
 <div id="header">
-	<h1>Browse the Web</h1>
+	<!-- Access -->
+	<div id="access"></div>
+	<!-- Logo -->
+	<a href="http://www.slitaz.org/"><img id="logo"
+		src="pics/website/logo.png" 
+		title="www.slitaz.org" alt="www.slitaz.org" /></a>
+	<p id="titre">#!/Web/Home</p>
 </div>
 
 <!-- Content -->
-<div id="content">
+<div id="content-full">
 
-<div style="text-align: center; margin: 20px;">
-<table>
-	<!-- Search Wikipedia -->
-	<tr>
-		<th><strong>Wikipedia :</strong></th>
-		<td>
-			<form action="http://www.wikipedia.org/search-redirect.php" method="get">
-				<input type="hidden" name="language" value="en" />
-				<input type="text" name="search" size="30" />
-				<input type="submit" name="go" value="Search" />
-			</form>
-		</td>
-	</tr>
-	<!-- Search Google -->
-	<tr>
-		<th><strong>Google :</strong></th>
-		<td>
+<h1>Browse the web</h1>
+
+<!-- Block begin -->
+<div class="block">
+	<!-- Left block begin -->
+	<div class="block_left">
+		<h3><img src="pics/website/network.png" alt="network.png"/>SliTaz</h3>
+		<ul>
+			<li><a href="http://www.slitaz.org/">Main Website</a></li>
+			<li><a href="http://doc.slitaz.org/">Documentation</a></li>
+			<li><a href="http://forum.slitaz.org/">Support Forum</a></li>
+			<li><a href="http://pkgs.slitaz.org/">Packages</a></li>
+			<li><a href="http://scn.slitaz.org/">Community</a></li>
+		</ul>
+	<!-- Left block end -->
+	</div>
+	<!-- Right block begin -->
+	<div class="block_right">
+		<h3><img src="pics/website/search.png" alt="search.png" />Search</h3>
 			<form method="get" action="http://www.google.com/search">
-				<input type="text" name="q" size="30" maxlength="255" value="" />
-				<input type="submit" value="Search" />
+				<p>
+					<input type="text" name="q" size="24" style="width: 70%;" 
+						maxlength="255" />
+					<input type="submit" value="Google" />
+				</p>
 			</form>
-		</td>
-	</tr>
-</table>
-</div>
-
-<!-- Shortcuts -->
-<div style="text-align: center; margin: 10px;">
-	<strong>SliTaz :</strong>
-	<a href="http://www.slitaz.org/">Website</a> | 
-	<a href="http://doc.slitaz.org/">Documentation</a> |
-	<a href="http://forum.slitaz.org/">Forum</a> |
-	<a href="http://labs.slitaz.org/">Labs</a> |
-	<a href="http://pkgs.slitaz.org/">Packages</a>
-</div>
-
-<div style="text-align: center;">
-<img
-	src="pics/slitaz-tux.png" 
-	title="SliTaz and Tux" alt="slitaz-tux"
-	style="width: 90px; height: 98px;" />
+			<form method="get" action="http://www.wikipedia.org/search-redirect.php">
+				<p>
+					<input type="hidden" name="language" value="en" />
+					<input type="text" name="search" size="24" style="width: 70%;"
+						maxlength="255" />
+					<input type="submit" name="go" value="Wikipedia" />
+				</p>
+			</form>
+	<!-- Right block end -->
+	</div>
+<!-- Block end -->
 </div>
 
 <!-- End of content -->
