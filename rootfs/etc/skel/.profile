@@ -8,14 +8,6 @@ if [ -d "$HOME/.local/bin" ] ; then
 	export PATH
 fi
 
-# Java JRE (paths).
-#
-#JAVA_HOME=$HOME/.local/lib/jre1.6.0_03
-#JAVA_BINDIR=$JAVA_HOME/bin
-#if [ -d "$JAVA_BINDIR" ] ; then
-#	export PATH=$JAVA_BINDIR:$PATH
-#fi
-
 # Environnement variables and prompt for Ash SHell
 # or Bash. Default is a classic prompt.
 #
