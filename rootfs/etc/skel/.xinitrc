@@ -1,6 +1,6 @@
 # ~/.xinitrc: Executed by slim login manager to startx X session.
-# You can use F1 with Slim to chage your window manager or configure
-# it permanently with your personnal applications.conf file.
+# You can use F1 with Slim to change your window manager or configure
+# it permanently with your personal applications.conf file.
 #
 . $HOME/.config/slitaz/applications.conf
 

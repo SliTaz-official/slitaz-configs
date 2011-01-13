@@ -11,13 +11,13 @@ the Slim Login Manager theme and the desktop background of the moment.
 
 All artwork is done on SliTaz with mtPaint, The Gimp or Inkscape.
 
-File: ~/.xinitrc ~/.xsession
+Files: ~/.xinitrc ~/.xsession
 ----------------------------
-These 2 files are used for X session login and startup. In live mode root
-and the default user (id 1000) need theme. For a new user when SliTaz is 
-installed the files are copied from /etc/skel. Historicaly these files
-where created by tazx at boot time because we was using tiny Xvesa server
-wich couldn't autoconfigure screen resolution and we needed to generate
+These 2 files are used for a X session login and startup. In live mode: root
+and the default user (id 1000) need them. For a new user, when SliTaz is 
+installed the files are copied from /etc/skel. Historically, these files
+were created by tazx at boot time because we were using a tiny Xvesa server
+which couldn't autoconfigure screen resolution and we needed to generate a
 .xsession with something like: Xvesa -screen 1024x768x24 &
 
 
