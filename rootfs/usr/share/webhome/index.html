@@ -26,23 +26,12 @@
 
 <!-- Block begin -->
 <div class="block">
-	<!-- Nav block begin -->
-	<div id="block_nav" style="min-height: 200px;">
-		<h3><img src="pics/website/network.png" alt="png" />SliTaz</h3>
-		<ul>
-			<li><a href="http://www.slitaz.org/">Main Website</a></li>
-			<li><a href="http://doc.slitaz.org/">Documentation</a></li>
-			<li><a href="http://forum.slitaz.org/">Support Forum</a></li>
-			<li><a href="http://scn.slitaz.org/">Community Network</a></li>
-			<li><a href="http://pkgs.slitaz.org/">Packages</a></li>
-			<li><a href="http://twitter.com/slitaz">SliTaz on Twitter</a></li>
-			<li><a href="http://distrowatch.com/slitaz">SliTaz on DistroWatch</a></li>
-		</ul>	
-	<!-- Nav block end -->
-	</div>
-	<!-- Top block begin -->
-	<div id="block_top" style="min-height: 200px;">
-	<h1 style="margin-bottom: 50px;">Search the web</h1>
+	<!-- Left block begin -->
+	<div class="block_left" style="height: 400px; overflow: auto;">
+	<h1>Search the web</h1>
+		<p>
+			Welcome to your SliTaz local homepage.
+		</p>
 		<form method="get" action="http://www.google.com/search">
 				<p>
 					<input type="text" name="q" size="24" style="width: 70%;" 
@@ -50,15 +39,73 @@
 					<input type="submit" value="Google" />
 				</p>
 			</form>
-			<form method="get" action="http://www.wikipedia.org/search-redirect.php">
+			<!-- <form method="get" action="http://www.wikipedia.org/search-redirect.php">
 				<p>
 					<input type="hidden" name="language" value="en" />
 					<input type="text" name="search" size="24" style="width: 70%;"
 						maxlength="255" />
 					<input type="submit" name="go" value="Wikipedia" />
 				</p>
-			</form>
-	<!-- Top block end -->
+			</form> -->
+		<h3><img src="pics/website/network.png" alt="png" />SliTaz Network</h3>
+		<ul>
+			<li><a href="http://www.slitaz.org/">Main Website</a></li>
+			<li><a href="http://doc.slitaz.org/">Documentation</a></li>
+			<li><a href="http://forum.slitaz.org/">Support Forum</a></li>
+			<li><a href="http://pkgs.slitaz.org/">Packages</a></li>
+			<li><a href="http://boot.slitaz.org/">Web Boot</a></li>
+		</ul>
+		<h3><img src="pics/website/users.png" alt=".png" />Join the community!</h3>
+		<ul>
+			<li><a href="http://scn.slitaz.org/image">Community Artwork</a></li>
+			<li><a href="http://scn.slitaz.org/blog">Community Blog</a></li>
+			<li><a href="http://twitter.com/slitaz">SliTaz on Twitter</a></li>
+			<li><a href="http://www.facebook.com/pages/SliTaz/125559834176383">SliTaz on Facebook</a></li>
+			<li><a href="http://en.wikipedia.org/wiki/SliTaz_GNU/Linux">SliTaz on Wikipedia</a></li>
+		</ul>
+	<!-- Left block end -->
+	</div>
+	<!-- Right block begin -->
+	<div class="block_right" style="height: 400px; overflow: auto;">
+		<h3><img src="pics/website/tools.png" alt=".png" />SliTaz Search</h3>
+		<!-- Google custom search -->
+		<div id="cse" style="width: 100%;">Loading</div>
+		<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+		<script type="text/javascript">
+		  google.load('search', '1', {language : 'en', style : google.loader.themes.MINIMALIST});
+		  google.setOnLoadCallback(function() {
+		    var customSearchControl = new google.search.CustomSearchControl('000868395082919927601:nddq7yjdcxg');
+		    customSearchControl.setResultSetSize(google.search.Search.SMALL_RESULTSET);
+		    customSearchControl.draw('cse');
+		  }, true);
+		</script>
+		 <style type="text/css">
+			input.gsc-search-button {
+			    border-color: #b64b22;
+			    background-color: #b64b22;
+			    cursor: pointer;
+			    font-size: 14px;
+				-moz-border-radius: 2px;
+				-webkit-border-radius: 2px;
+				border-radius: 2px;
+				-moz-box-shadow: 0 0 5px #666;
+				-webkit-box-shadow: 0 0 5px#666;
+				box-shadow: 0 0 5px #666;
+				-moz-text-shadow: 0 0 0 #666;
+				-webkit-text-shadow: 0 0 0 #666;
+				text-shadow: 0 0 0 #666;
+				
+			}
+			.gsc-control-cse {
+				border: 0pt solid #ffffff;
+				background-color: transparent;
+			}
+			.gs-webResult.gs-result a.gs-title:link,
+			.gs-webResult.gs-result a.gs-title:link b { color: #103a5e; }
+			.gsc-cursor-page { color: #103a5e; }
+			a.gsc-trailing-more-results:link { color: #103a5e; }
+		</style>
+	<!-- Right block end -->
 	</div>
 <!-- Block end -->
 </div>
