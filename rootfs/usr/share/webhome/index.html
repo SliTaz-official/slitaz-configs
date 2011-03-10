@@ -6,104 +6,55 @@
     <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
     <meta name="author" content="Christophe Lincoln"/>
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="slitaz.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
 
 <!-- Header -->
 <div id="header">
-	<!-- Access -->
-	<div id="access"></div>
-	<!-- Logo -->
-	<a href="http://www.slitaz.org/"><img id="logo"
-		src="pics/website/logo.png" 
-		title="www.slitaz.org" alt="www.slitaz.org" /></a>
-	<p id="titre">#!/Web/Home</p>
+	<h1>Web Home</h1>
 </div>
 
 <!-- Content -->
-<div id="content-full">
+<div id="content">
 
-<!-- Block begin -->
-<div class="block">
-	<!-- Left block begin -->
-	<div class="block_left" style="height: 400px; overflow: auto;">
-	<h1>Search the web</h1>
+<div class="searchbox">
+	<form method="get" action="http://www.google.com/search">
 		<p>
-			Welcome to your SliTaz local homepage.
+			<input type="text" name="q" size="24" style="width: 80%;" 
+				maxlength="255" />
+			<input type="submit" value="Google" />
 		</p>
-		<form method="get" action="http://www.google.com/search">
-				<p>
-					<input type="text" name="q" size="24" style="width: 70%;" 
-						maxlength="255" />
-					<input type="submit" value="Google" />
-				</p>
-			</form>
-			<!-- <form method="get" action="http://www.wikipedia.org/search-redirect.php">
-				<p>
-					<input type="hidden" name="language" value="en" />
-					<input type="text" name="search" size="24" style="width: 70%;"
-						maxlength="255" />
-					<input type="submit" name="go" value="Wikipedia" />
-				</p>
-			</form> -->
-		<h3><img src="pics/website/users.png" alt=".png" />Join the community!</h3>
-		<ul>
-			<li><a href="http://www.slitaz.org/">SliTaz Website</a></li>
-			<li><a href="http://doc.slitaz.org/">Documentation</a></li>
-			<li><a href="http://forum.slitaz.org/">Support Forum</a></li>
-			<li><a href="http://scn.slitaz.org/image">Community Network</a></li>
-			<li><a href="http://twitter.com/slitaz">SliTaz on Twitter</a></li>
-			<li><a href="http://www.facebook.com/pages/SliTaz/125559834176383">SliTaz on Facebook</a></li>
-			<li><a href="http://en.wikipedia.org/wiki/SliTaz_GNU/Linux">SliTaz on Wikipedia</a></li>
-		</ul>
-		
-	<!-- Left block end -->
-	</div>
-	<!-- Right block begin -->
-	<div class="block_right" style="height: 400px; overflow: auto;">
-		<h3><img src="pics/website/tools.png" alt=".png" />SliTaz Search</h3>
-		<!-- Google custom search -->
-		<div id="cse" style="width: 100%;">Loading</div>
-		<script src="http://www.google.com/jsapi" type="text/javascript"></script>
-		<script type="text/javascript">
-		  google.load('search', '1', {language : 'en', style : google.loader.themes.MINIMALIST});
-		  google.setOnLoadCallback(function() {
-		    var customSearchControl = new google.search.CustomSearchControl('000868395082919927601:nddq7yjdcxg');
-		    customSearchControl.setResultSetSize(google.search.Search.SMALL_RESULTSET);
-		    customSearchControl.draw('cse');
-		  }, true);
-		</script>
-		 <style type="text/css">
-			input.gsc-search-button {
-			    border-color: #b64b22;
-			    background-color: #b64b22;
-			    cursor: pointer;
-			    font-size: 14px;
-				-moz-border-radius: 2px;
-				-webkit-border-radius: 2px;
-				border-radius: 2px;
-				-moz-box-shadow: 0 0 5px #666;
-				-webkit-box-shadow: 0 0 5px#666;
-				box-shadow: 0 0 5px #666;
-				-moz-text-shadow: 0 0 0 #666;
-				-webkit-text-shadow: 0 0 0 #666;
-				text-shadow: 0 0 0 #666;
-				
-			}
-			.gsc-control-cse {
-				border: 0pt solid #ffffff;
-				background-color: transparent;
-			}
-			.gs-webResult.gs-result a.gs-title:link,
-			.gs-webResult.gs-result a.gs-title:link b { color: #103a5e; }
-			.gsc-cursor-page { color: #103a5e; }
-			a.gsc-trailing-more-results:link { color: #103a5e; }
-		</style>
-	<!-- Right block end -->
-	</div>
-<!-- Block end -->
+	</form>
+<!-- <form method="get" action="http://www.wikipedia.org/search-redirect.php">
+		<p>
+			<input type="hidden" name="language" value="en" />
+			<input type="text" name="search" size="24" style="width: 70%;"
+				maxlength="255" />
+			<input type="submit" name="go" value="Wikipedia" />
+		</p>
+	</form> -->
 </div>
+
+<p style="text-align: center;">
+	SliTaz Network:
+	<a href="http://www.slitaz.org/">Website</a>
+	<a href="http://doc.slitaz.org/">Documentation</a>
+	<a href="http://pkgs.slitaz.org/">Packages</a>
+	<a href="http://forum.slitaz.org/">Forum</a>
+	<a href="http://scn.slitaz.org/">Community</a>
+	<a href="http://labs.slitaz.org/">Labs</a>
+	<a href="http://hg.slitaz.org/">Hg</a>
+</p>
+
+<p style="text-align: center;">
+	SliTaz @
+	<a href="http://twitter.com/slitaz">Twitter</a>
+	<a href="http://www.facebook.com/slitaz">Facebook</a>
+	<a href="http://distrowatch.com/slitaz">Distrowatch</a>
+	<a href="http://en.wikipedia.org/wiki/SliTaz">Wikipedia</a>
+	<a href="http://flattr.com/profile/slitaz">Flattr</a>
+</p>
 
 <!-- End of content -->
 </div>
