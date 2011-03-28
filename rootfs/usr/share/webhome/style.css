@@ -12,12 +12,10 @@ body { font: 13px sans-serif, vernada, arial; margin: 0;
 	padding: 12px; 
 	background: #f8f8f8;
 	text-align: center;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	border-radius: 8px;
-	-moz-box-shadow: 0 1px 3px #666;
-	-webkit-box-shadow: 0 1px 3px #666;
-	box-shadow: 0 1px 3px #666;
+	border: 1px solid #ddd;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
 }
 a:hover { text-decoration: none; color: #000; }
 h1 { margin: 6px 20px; color: #fff; }
