@@ -5,13 +5,10 @@
 dbus-launch --exit-with-session &
 
 # Handle Hal events with Ivman (notification with desktopbox).
-ivman &
+#ivman &
 
 # Start PCmanFM as daemon for Wallpaper and desktop icons.
 pcmanfm -d &
-
-# update lxpanel config
-sed -i "s/iface=.*/`grep \"iface=\" /etc/lxpanel/default/panels/panel`/" ~/.config/lxpanel/default/panels/panel
 
 # Start the Freedesktop panel standard menu.
 lxpanel &
@@ -30,3 +27,6 @@ lxpanel &
 
 # Background color with xsetroot.
 #xsetroot -solid "#222222" &
+
+# Wbar2 icon bar
+#$(sleep 3 && wbar) &

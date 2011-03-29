@@ -1,14 +1,69 @@
-body { font: 13px sans-serif, vernada, arial; margin: 0; 
-	border-top: 34px solid #f1f1f1; }
-#header { 
-	background: #351a0a url(pics/header-img.png) no-repeat top right;
-	color: black; height: 42px; 
-	border-top: 1px solid black; 
-	border-bottom: 1px solid black;
+/* CSS style for SliTaz GNU/Linux Web Home */
+
+body {
+	background: #ffffff;
+	color: black;
+	font: 13px sans-serif, vernada, arial;
+	margin: 0;
+	min-width: 640px;
 }
-#content { margin: 0px 18% 26px 18%; }
+
+a { text-decoration: underline; color: #215090; }
+a:hover { text-decoration: none; color: blue; }
+img { border: 0pt none; vertical-align: middle; }
+
+/* Header */
+
+#header { 
+	height: 40px; 
+	background: #351a0a;
+}
+
+#header h1 {
+	margin: 0;
+	padding: 8px 0 0 8px;
+	width: 250px;
+	color: white;
+	font-size: 20px;
+	font-style: italic;
+}
+
+/* SliTaz Network */
+
+#network { 
+	float: right; 
+	padding: 12px 5px 0; 
+	font-size: 12px;
+}
+
+#network a { padding: 0 6px; }
+
+#network a { 
+	color: #fff; 
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#network a:hover { color: #d66018; }
+
+/* Block */
+
+#block { 
+	min-height: 8px; 
+	background: #d66018; 
+	padding: 0;
+	border-bottom: 1px solid #f5f5f5;
+}
+
+/* Content */
+
+#content {
+	padding: 30px 20px;
+	text-align: justify;
+}
+
 .searchbox { 
-	margin: 40px 0; 
+	margin: 40px 80px; 
 	padding: 12px; 
 	background: #f8f8f8;
 	text-align: center;
@@ -17,10 +72,12 @@ body { font: 13px sans-serif, vernada, arial; margin: 0;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 }
-a:hover { text-decoration: none; color: #000; }
-h1 { margin: 6px 20px; color: #fff; }
-p, a { color: #666; }
-p img { vertical-align: middle; padding-right: 4px; }
+
+#social { text-align: center; color: #666; }
+#social a { color: #666; padding: 0 2px; }
+
+/* Form */
+
 input[type=submit] {
 	border: 1px solid #b64b22;
 	background-color: #b64b22;
@@ -37,12 +94,14 @@ input[type=submit] {
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
 }
+
 input[type=submit]:hover { background-color: #a3431f; }
+
 input[type=text] {
 	border: 1px solid #333333;
 	padding: 4px;
 	height: 17px;
-	width: 100%;
+	width: 68%;
 	-webkit-border-top-left-radius: 4px;
 	-webkit-border-bottom-left-radius: 4px;
 	-moz-border-radius-topleft: 4px;
