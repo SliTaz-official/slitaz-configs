@@ -13,6 +13,9 @@ pcmanfm -d &
 # Start the Freedesktop panel standard menu.
 lxpanel &
 
+# Packages update notification
+tazpkg-notify &
+
 # Start Parcellite clipboard manager.
 #parcellite &
 
