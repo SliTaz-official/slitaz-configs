@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=X defaults behavior
+Icon=preferences-system-session
+Exec=edit-dot-xdefaults
+Categories=Settings;

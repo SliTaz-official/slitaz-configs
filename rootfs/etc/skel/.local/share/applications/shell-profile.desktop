@@ -1,8 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Name=SHell profile
-Name[fr]=Profile du SHell
-Icon=xterm.png
-Exec=leafpad /home/user_name/.profile
-Type=Application
-Categories=Settings;DesktopSettings;

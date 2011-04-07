@@ -7,13 +7,13 @@ Xcursor.theme:		slitaz-polar
 
 ! XTerm settings.
 !
-xterm*background:	black
-xterm*foreground:	white
-xterm*cursorColor:	#6AA2D8
+xterm*background:	#000000
+xterm*foreground:	#ffffff
+xterm*cursorColor:	#d66018
 xterm*scrollBar:	off
 xterm*faceName:		DejaVu Sans Mono
 xterm*faceNameDoublesize:WenQuanYi WenQuanYi Micro Hei Mono-10
-xterm*faceSize:		9
+xterm*faceSize:		10
 
 ! Xload settings.
 !
