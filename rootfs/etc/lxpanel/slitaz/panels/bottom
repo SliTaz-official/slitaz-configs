@@ -52,9 +52,18 @@ Plugin {
     type = dclock
     Config {
         ClockFmt=%R
-        TooltipFmt=%A %x
+        TooltipFmt=%A %x - %R
         BoldFont=1
         IconOnly=0
+    }
+}
+
+Plugin {
+    type = launchbar
+    Config {
+        Button {
+            id=/usr/share/applications/slitaz-logout.desktop
+        }
     }
 }
 
