@@ -34,15 +34,6 @@ Plugin {
     Config {
         name=SliTazMenu.directory
         image=/usr/share/pixmaps/slitaz-menu.png
-        name=SliTazMenu.directory
-        name=SliTazMenu.directory
-        name=SliTazMenu.directory
-        name=SliTazMenu.directory
-        name=SliTazMenu.directory
-        name=SliTazMenu.directory
-        name=SliTazMenu.directory
-        name=SliTazMenu.directory
-        name=SliTazMenu.directory
         system {
         }
         separator {
@@ -71,7 +62,7 @@ Plugin {
     type = launchbar
     Config {
         Button {
-            id=/usr/share/applications/pcmanfm.desktop
+            id=/usr/share/applications/xterm.desktop
         }
         Button {
             id=/usr/share/applications/leafpad.desktop

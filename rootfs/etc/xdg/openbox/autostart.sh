@@ -16,6 +16,9 @@ lxpanel --profile slitaz &
 # Packages update notification
 tazpkg-notify &
 
+# TazDrop Drag N' Drop handler
+tazdrop --dnd &
+
 # Start Parcellite clipboard manager.
 #parcellite &
 
