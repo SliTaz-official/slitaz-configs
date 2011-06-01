@@ -127,7 +127,7 @@
   <menu id="client-list-menu" />
   <separator />
   <item label="Logout">
-    <action name="Execute"><command>desktopbox logout</command></action>
+    <action name="Execute"><command>tazbox logout</command></action>
   </item>
 </menu>
 

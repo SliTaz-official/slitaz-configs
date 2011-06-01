@@ -130,7 +130,7 @@
     <action name="Execute"><command>gmrun</command></action>
   </item> -->
   <item label="Déconnexion">
-    <action name="Execute"><command>desktopbox logout</command></action>
+    <action name="Execute"><command>tazbox logout</command></action>
   </item>
 </menu>
 

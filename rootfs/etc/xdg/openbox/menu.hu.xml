@@ -162,7 +162,7 @@
   <menu id="openbox-menu" />
   <separator />
   <item label="Kijelentkezés">
-    <action name="Execute"><command>desktopbox logout</command></action>
+    <action name="Execute"><command>tazbox logout</command></action>
   </item>
 </menu>
 
