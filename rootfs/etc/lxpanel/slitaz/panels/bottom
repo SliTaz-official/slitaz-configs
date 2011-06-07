@@ -7,8 +7,8 @@ Global {
     margin=0
     widthtype=percent
     width=100
-    height=25
-    transparent=1
+    height=24
+    transparent=0
     tintcolor=#ffffff
     alpha=20
     autohide=0
@@ -17,15 +17,9 @@ Global {
     setpartialstrut=1
     usefontcolor=1
     fontcolor=#ffffff
-    background=0
+    background=1
+    backgroundfile=/usr/share/images/panel-background.png
     iconsize=24
-}
-
-Plugin {
-    type = space
-    Config {
-        Size=4
-    }
 }
 
 Plugin {
