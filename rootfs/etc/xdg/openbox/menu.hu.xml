@@ -24,20 +24,6 @@
   </item>
 </menu>
 
-<!-- Desktop files -->
-<menu id="desktop-menu" label="Asztali fájlok és ikonok">
-  <item label="Új mappa létrehozása">
-    <action name="Execute"><command>desktopbox new-folder</command></action>
-  </item>
-  <item label="Új fájl létrehozása">
-    <action name="Execute"><command>desktopbox new-file</command></action>
-  </item>
-  <separator />
-  <item label="Új ikon hozzáadása">
-    <action name="Execute"><command>desktopbox add-icons</command></action>
-  </item>
-</menu>
-
 <!-- Desktop effects -->
 <menu id="desktop-effects" label="Asztali hatások">
   <item label="Composite aktiválása">
@@ -149,8 +135,10 @@
 
 <menu id="root-menu" label="Openbox 3">
   <!-- <separator label="SliTaz Openbox" /> -->
+  <item label="Új fájl létrehozása">
+    <action name="Execute"><command>tazbox new-file</command></action>
+  </item>
   <menu id="favorites-menu" />
-  <menu id="desktop-menu" />
   <!-- Pipe menu to open folder using GTK bookmarks -->
   <menu id="open-folder-menu" label="Mappa megnyitása"
         execute="/usr/lib/openbox/open-folder-menu.sh" />

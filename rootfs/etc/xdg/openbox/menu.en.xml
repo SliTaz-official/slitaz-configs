@@ -22,20 +22,6 @@
   </item>
 </menu>
 
-<!-- Desktop files -->
-<menu id="desktop-menu" label="Desktop Files &amp; Icons">
-  <item label="Create new directory">
-    <action name="Execute"><command>desktopbox new-folder</command></action>
-  </item>
-  <item label="Create new file">
-    <action name="Execute"><command>desktopbox new-file</command></action>
-  </item>
-  <separator />
-  <item label="Add new icon">
-    <action name="Execute"><command>desktopbox add-icons</command></action>
-  </item>
-</menu>
-
 <!-- Desktop effects -->
 <menu id="desktop-effects" label="Desktop Effects">
   <item label="Activate composite">
@@ -116,8 +102,10 @@
 
 <menu id="root-menu" label="Openbox 3">
   <!-- <separator label="SliTaz Openbox" /> -->
+  <item label="Create a new file or folder">
+    <action name="Execute"><command>tazbox new-file</command></action>
+  </item>
   <menu id="favorites-menu" />
-  <menu id="desktop-menu" />
   <!-- Pipe menu to open folder using GTK bookmarks -->
   <menu id="open-folder-menu" label="Open Folder"
         execute="/usr/lib/openbox/open-folder-menu.sh" />
