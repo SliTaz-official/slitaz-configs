@@ -15,7 +15,7 @@ Global {
     heightwhenhidden=2
     setdocktype=0
     setpartialstrut=1
-    usefontcolor=1
+    usefontcolor=0
     fontcolor=#ffffff
     background=1
     backgroundfile=/usr/share/images/panel-background.png
