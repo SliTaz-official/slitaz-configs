@@ -107,7 +107,7 @@ Plugin {
     type = netstatus
     Config {
         iface=wlan0
-        configtool=subox netbox %i
+        configtool=browser http://tazpanel:82/network.cgi
     }
 }
 
