@@ -9,13 +9,13 @@ Global {
     width=100
     height=24
     transparent=0
-    tintcolor=#ffffff
-    alpha=20
+    tintcolor=#333333
+    alpha=255
     autohide=0
     heightwhenhidden=2
     setdocktype=0
     setpartialstrut=1
-    usefontcolor=0
+    usefontcolor=1
     fontcolor=#ffffff
     background=1
     backgroundfile=/usr/share/images/panel-background.png
@@ -23,7 +23,25 @@ Global {
 }
 
 Plugin {
-    type = pager
+    type = menu
+    Config {
+        name=SliTazMenu.directory
+        image=slitaz-menu
+        system {
+        }
+        separator {
+        }
+        item {
+            image=exec
+            command=run
+        }
+        separator {
+        }
+        item {
+            image=lxde-logout
+            command=logout
+        }
+    }
 }
 
 Plugin {
@@ -50,21 +68,10 @@ Plugin {
 }
 
 Plugin {
-    type = dclock
-    Config {
-        ClockFmt=%R
-        TooltipFmt=%A %x - %R
-        BoldFont=1
-        IconOnly=0
-    }
+    type = tray
 }
 
 Plugin {
-    type = launchbar
-    Config {
-        Button {
-            id=/usr/share/applications/slitaz-logout.desktop
-        }
-    }
+    type = pager
 }
 
