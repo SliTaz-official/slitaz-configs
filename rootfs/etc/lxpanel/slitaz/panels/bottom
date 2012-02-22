@@ -8,8 +8,8 @@ Global {
     widthtype=percent
     width=100
     height=24
-    transparent=0
-    tintcolor=#333333
+    transparent=1
+    tintcolor=#351a0a
     alpha=255
     autohide=0
     heightwhenhidden=2
@@ -17,7 +17,7 @@ Global {
     setpartialstrut=1
     usefontcolor=1
     fontcolor=#ffffff
-    background=1
+    background=0
     backgroundfile=/usr/share/images/panel-background.png
     iconsize=24
 }
@@ -27,6 +27,9 @@ Plugin {
     Config {
         name=SliTazMenu.directory
         image=slitaz-menu
+        name=SliTazMenu.directory
+        name=SliTazMenu.directory
+        name=SliTazMenu.directory
         system {
         }
         separator {
