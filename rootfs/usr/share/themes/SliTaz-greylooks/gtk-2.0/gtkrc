@@ -22,15 +22,15 @@ style "clearlooks-default"
 
   bg[NORMAL]	    = "#f1efeb" # light beige
   bg[PRELIGHT]      = "#f9f7f3" # very light beige
-  bg[SELECTED]		= "#d66018" # orange
-  bg[INSENSITIVE]   = "#efebe7" # light grey
+  bg[SELECTED]		= "#7b705c" # grey
+  bg[INSENSITIVE]   = "#efebe7" # beige
   bg[ACTIVE]        = "#d7d3ca" # dark beige
 
   base[NORMAL]      = "#ffffff" # white 
-  base[PRELIGHT]    = "#d66018" # orange
-  base[ACTIVE]      = "#72320e" # brown
-  base[SELECTED]	= "#d66018" # orange
-  base[INSENSITIVE] = "#efebe7" # light grey
+  base[PRELIGHT]    = "#7b705c" # grey
+  base[ACTIVE]      = "#a69f91" # grey beige
+  base[SELECTED]	= "#7b705c" # grey
+  base[INSENSITIVE] = "#efebe7" # beige
 
   text[NORMAL]      = "#000000" # black
   text[PRELIGHT]    = "#000000" # black
@@ -73,8 +73,8 @@ style "clearlooks-tasklist" = "clearlooks-default"
 
 style "clearlooks-menu" = "clearlooks-default"
 {
-  xthickness = 0
-  ythickness = 0
+  xthickness = 2
+  ythickness = 1
   bg[NORMAL] = "#f9f7f3"
 }
 
@@ -94,7 +94,7 @@ style "clearlooks-tree" = "clearlooks-default"
 
 style "clearlooks-frame-title" = "clearlooks-default"
 {
-  fg[NORMAL] = "#333333"
+  fg[NORMAL] = "#404040"
 }
 
 style "clearlooks-tooltips" = "clearlooks-default"
