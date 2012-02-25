@@ -105,6 +105,10 @@
   <item label="Create a new file or folder">
     <action name="Execute"><command>tazbox new-file</command></action>
   </item>
+  <item label="Run application">
+    <action name="Execute"><command>lxpanelctl run</command></action>
+  </item>
+  <separator />
   <menu id="favorites-menu" />
   <!-- Pipe menu to open folder using GTK bookmarks -->
   <menu id="open-folder-menu" label="Open Folder"

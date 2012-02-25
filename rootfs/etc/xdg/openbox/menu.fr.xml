@@ -105,6 +105,10 @@
   <item label="Créer un nouveau fichier">
     <action name="Execute"><command>tazbox new-file</command></action>
   </item>
+  <item label="Exécuter une application">
+    <action name="Execute"><command>lxpanelctl run</command></action>
+  </item>
+  <separator />
   <menu id="favorites-menu" />
   <!-- Pipe menu to open folder using GTK bookmarks -->
   <menu id="open-folder-menu" label="Dossiers favoris"
@@ -114,9 +118,6 @@
   <menu id="openbox-menu" />
   <menu id="client-list-menu" />
   <separator />
-  <!-- <item label="Exécuter">
-    <action name="Execute"><command>gmrun</command></action>
-  </item> -->
   <item label="Déconnexion">
     <action name="Execute"><command>tazbox logout</command></action>
   </item>

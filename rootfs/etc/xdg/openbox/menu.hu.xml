@@ -80,35 +80,6 @@
   </item>
 </menu>
 
-<!-- SliTaz documentation -->
-<menu id="documentation-menu" label="Dokumentáció">
-  <item label="Tazlito kézikönyv">
-    <action name="Execute">
-      <command>firefox /usr/share/doc/tazlito/tazlito.html</command>
-    </action>
-  </item>
-  <item label="Tazpkg kézikönyv">
-    <action name="Execute">
-      <command>firefox /usr/share/doc/tazpkg/tazpkg.html</command>
-    </action>
-  </item>
-  <item label="TazUSB Kézikönyv (angol)">
-    <action name="Execute">
-      <command>firefox /usr/share/doc/tazusb/tazusb.en.html</command>
-    </action>
-  </item>
-  <item label="Tazwok Kézikönyv">
-    <action name="Execute">
-      <command>firefox /usr/share/doc/tazwok/tazwok.html</command>
-    </action>
-  </item>
-  <item label="GNU General Public License">
-    <action name="Execute">
-      <command>xterm -T "General Public License" -e less -M /usr/share/licenses/gpl.txt</command>
-    </action>
-  </item>
-</menu>
-
 <!-- Openbox configuration -->
 <menu id="openbox-menu" label="Openbox">
   <item label="ObConf-Openbox beállítása">
@@ -138,13 +109,16 @@
   <item label="Új fájl létrehozása">
     <action name="Execute"><command>tazbox new-file</command></action>
   </item>
+  <item label="Futtatni az alkalmazást">
+    <action name="Execute"><command>lxpanelctl run</command></action>
+  </item>
+  <separator />
   <menu id="favorites-menu" />
   <!-- Pipe menu to open folder using GTK bookmarks -->
   <menu id="open-folder-menu" label="Mappa megnyitása"
         execute="/usr/lib/openbox/open-folder-menu.sh" />
   <menu id="desktop-effects" />
   <menu id="slitaz-live-menu" />
-  <menu id="documentation-menu" />
   <separator />
   <menu id="client-list-menu" />
   <menu id="openbox-menu" />
