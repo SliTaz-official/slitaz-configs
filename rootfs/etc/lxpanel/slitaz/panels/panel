@@ -16,7 +16,7 @@ Global {
     setdocktype=0
     setpartialstrut=1
     usefontcolor=1
-    fontcolor=#ffffff
+    fontcolor=#cfcfcf
     background=0
     backgroundfile=/usr/share/images/panel-background.png
     iconsize=22
