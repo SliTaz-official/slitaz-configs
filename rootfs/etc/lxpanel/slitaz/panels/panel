@@ -48,7 +48,7 @@ Plugin {
     type = space
     expand=1
     Config {
-        Size=80
+        Size=2
     }
 }
 
