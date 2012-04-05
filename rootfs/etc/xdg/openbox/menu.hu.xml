@@ -55,12 +55,12 @@
 <!-- SliTaz Live (Tazlito and Tazusb) -->
 <menu id="slitaz-live-menu" label="SliTaz Live">
   <item label="Tazlito LiveCD Készítõ">
-    <action name="Execute"><command>subox tazlitobox</command></action>
+    <action name="Execute"><command>subox tazlito-wiz</command></action>
   </item>
   <separator />
   <item label="TazUSB LiveUSB Készítõ">
     <action name="Execute">
-      <command>subox tazusbbox</command>
+      <command>subox tazusb-box</command>
     </action>
   </item>
   <item label="TazUSB Writefs (gzip)">
