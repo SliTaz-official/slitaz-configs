@@ -9,7 +9,7 @@ Global {
     width=100
     height=24
     transparent=1
-    tintcolor=#351a0a
+    tintcolor=#443B31
     alpha=255
     autohide=0
     heightwhenhidden=2

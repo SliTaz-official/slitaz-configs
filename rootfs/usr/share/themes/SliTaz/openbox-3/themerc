@@ -12,7 +12,7 @@ menu.overlap: 0
 *.bg.highlight: 50
 *.bg.shadow:    01
 *.title.bg: flat
-*.title.bg.color: #351a0a
+*.title.bg.color: #443B31
 #*.title.bg.colorTo: #342812
 
 # Menu settings (match SliTaz GTK/Clearlooks colors)
@@ -32,14 +32,14 @@ menu.items.disabled.text.color: #cfcfcf
 
 # Window
 window.active.border.color: #72320e
-window.inactive.border.color: #351a0a
+window.inactive.border.color: #443B31
 window.inactive.border.width: 10
 window.active.title.bg: flat
-window.active.title.bg.color: #351a0a
+window.active.title.bg.color: #443B31
 #window.active.title.bg.colorTo: #342812
 window.active.title.bg.highlight: 35
 window.active.title.bg.shadow:    00
-window.active.title.separator.color: #351a0a
+window.active.title.separator.color: #443B31
 window.inactive.title.separator.color: #72320e
 window.inactive.title.bg: flat
 window.inactive.title.bg.color: #72320e
@@ -60,10 +60,10 @@ window.inactive.button.hover.image.color: #ffffff
 window.*.handle.bg: Raised Raised
 window.*.handle.bg.color: #d66018
 window.*.grip.bg: Raised Raised
-window.*.grip.bg.color: #351a0a
+window.*.grip.bg.color: #443B31
 
 # OSD
 osd.bg: flat
-osd.bg.color: #351a0a
+osd.bg.color: #443B31
 #osd.bg.colorTo: #342812
 osd.border.color: #d66018
