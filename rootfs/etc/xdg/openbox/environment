@@ -1,0 +1,10 @@
+#
+# Set system-wide environment variables here for Openbox
+# User-specific variables should be placed in $HOME/.config/openbox/environment
+#
+
+# Export XDG standard directories
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_CURRENT_DESKTOP=openbox
+
