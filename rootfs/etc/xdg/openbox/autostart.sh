@@ -1,20 +1,24 @@
 # This shell script is run before Openbox launches.
 # Environment variables set here are passed to the Openbox session.
 
-# DBUS message bus (automount removable devices).
-dbus-launch --exit-with-session &
+# Export XDG standard directories
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_CURRENT_DESKTOP=openbox
 
-# Handle Hal events with Ivman (notification with desktopbox).
-#ivman &
+# Start DBUS session.
+if [ ! "$DBUS_SESSION_BUS_ADDRESS" ]; then
+	dbus-launch --sh-syntax --exit-with-session &
+fi
 
 # Start PCmanFM as daemon for Wallpaper and desktop icons.
-pcmanfm -d &
+#pcmanfm -d &
 
 # Start the Freedesktop panel standard menu.
-lxpanel --profile slitaz &
+#lxpanel --profile slitaz &
 
 # Packages update notification.
-tazpkg-notify &
+#tazpkg-notify &
 
 # Start Parcellite clipboard manager.
 #parcellite &
