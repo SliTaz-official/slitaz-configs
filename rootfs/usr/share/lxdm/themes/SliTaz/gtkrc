@@ -1,0 +1,16 @@
+
+style "time"
+{
+	font_name="Sans Bold 10"
+	fg[NORMAL]="#ffffff"
+}
+
+style "bottom"
+{
+	font_name="Sans 10"
+	fg[NORMAL] = "#000000"
+}
+
+widget "lxdm.*.time" style "time"
+widget "lxdm.*.bottom_pane" style "bottom"
+widget_class "GtkWindow.*.GtkEventBox.*.<GtkLabel>" style "bottom"
