@@ -17,9 +17,10 @@
     <action name="Execute"><command>editor</command></action>
   </item>
   <separator />
-  <item label="Configure favorites">
+  <!-- TODO: Write a Yad frontend to applications.conf -->
+  <!-- <item label="Configure favorites">
     <action name="Execute"><command>desktopbox tazapps</command></action>
-  </item>
+  </item> -->
 </menu>
 
 <!-- Desktop effects -->
@@ -102,23 +103,23 @@
 
 <menu id="root-menu" label="Openbox 3">
   <!-- <separator label="SliTaz Openbox" /> -->
-  <item label="Create a new file or folder">
+  <item label="Create a new file or folder" icon="/usr/share/icons/SliTaz/mimetypes/32/empty.png">
     <action name="Execute"><command>tazbox new-file</command></action>
   </item>
-  <item label="Run application">
+  <item label="Run application" icon="/usr/share/icons/SliTaz/mimetypes/32/exec.png">
     <action name="Execute"><command>lxpanelctl run</command></action>
   </item>
   <separator />
-  <menu id="favorites-menu" />
+  <menu id="favorites-menu" icon="/usr/share/icons/SliTaz/places/32/user-bookmarks.png" />
   <!-- Pipe menu to open folder using GTK bookmarks -->
-  <menu id="open-folder-menu" label="Open Folder"
+  <menu id="open-folder-menu" label="Open Folder" icon="/usr/share/icons/SliTaz/places/32/folder-open.png"
         execute="/usr/lib/openbox/open-folder-menu.sh" />
-  <menu id="desktop-effects" />
-  <menu id="slitaz-live-menu" />
-  <menu id="openbox-menu" />
-  <menu id="client-list-menu" />
+  <menu id="desktop-effects" icon="/usr/share/icons/SliTaz/apps/22/desktop-effects.png" />
+  <menu id="slitaz-live-menu" icon="/usr/share/pixmaps/slitaz-icon.png" />
+  <menu id="openbox-menu" icon="/usr/share/pixmaps/openbox.png" />
+  <menu id="client-list-menu" icon="/usr/share/icons/SliTaz/places/32/desktop.png" />
   <separator />
-  <item label="Logout">
+  <item label="Logout" icon="/usr/share/pixmaps/slitaz-logout.png">
     <action name="Execute"><command>tazbox logout</command></action>
   </item>
 </menu>
