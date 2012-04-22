@@ -29,10 +29,10 @@
     <action name="Execute"><command>xcompmgr</command></action>
   </item>
   <item label="Activate shadows">
-    <action name="Execute"><command>xcompmgr -c -r 10</command></action>
+    <action name="Execute"><command>xcompmgr -c -r 10 -o 0.5</command></action>
   </item>
   <item label="Activate shadows/fade">
-    <action name="Execute"><command>xcompmgr -c -f -r 10</command></action>
+    <action name="Execute"><command>xcompmgr -c -f -r 10 -o 0.5</command></action>
   </item>
   <separator />
   <item label="Set opacity (actual)">
@@ -84,8 +84,12 @@
   </item>
   <item label="Autostart Script">
     <action name="Execute">
-      <command>desktopbox autostart</command>
+      <command>editor ~/.config/openbox/autostart</command>
     </action>
+  <!-- <item label="Openbox environment">
+    <action name="Execute">
+      <command>editor ~/.config/openbox/environment</command>
+    </action> -->
   </item>
   <item label="Openbox Menu">
     <action name="Execute">
