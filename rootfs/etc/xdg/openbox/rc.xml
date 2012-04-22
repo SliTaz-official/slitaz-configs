@@ -95,6 +95,18 @@
       <slant>normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
+    <font place="ActiveOnScreenDisplay">
+      <name>Sans</name>
+      <size>16</size>
+      <weight>Normal</weight>
+      <slant>Normal</slant>
+    </font>
+    <font place="InactiveOnScreenDisplay">
+      <name>Sans</name>
+      <size>8</size>
+      <weight/>
+      <slant/>
+    </font>
   </theme>
   <desktops>
     <!-- this stuff is only used at startup, pagers allow you to change them
@@ -624,10 +636,6 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
-    <application name="tazdrop">
-      <focus>no</focus>
-      <skip_taskbar>yes</skip_taskbar>
-    </application>
     <!--
   # this is an example with comments through out. use these to make your
   # own rules, but without the comments of course.
