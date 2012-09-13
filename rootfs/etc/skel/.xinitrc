@@ -4,17 +4,17 @@
 #
 . $HOME/.config/slitaz/applications.conf
 
-case $1 in
-	openbox|lxde*|xfce4|compiz|karmen|dwm) 
-		exec ${1%-session}-session ;;
-	razor*) 
+[ "$1" ] && WINDOW_MANAGER="$1"
+
+case "$WINDOW_MANAGER" in
+	openbox|lxde*|xfce4|compiz|karmen|dwm|fluxbox*)
+		exec ${WINDOW_MANAGER%-session}-session ;;
+	razor*)
 		exec razor-session ;;
 	enlightenment)
 		exec enlightenment_start ;;
-	fluxbox)
-		exec start${1} ;;
-	jwm|awesome|pekwm) 
+	jwm|awesome|pekwm)
 		exec $1 ;;
-	*) 
+	*)
 		exec $WINDOW_MANAGER ;;
 esac
