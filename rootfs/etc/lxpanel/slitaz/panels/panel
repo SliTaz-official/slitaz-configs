@@ -17,13 +17,35 @@ Global {
     setpartialstrut=1
     usefontcolor=1
     fontsize=10
-    fontcolor=#ffffff
+    fontcolor=#cfcfcf
     usefontsize=0
     background=0
     iconsize=22
 }
 
 Plugin {
+    type = menu
+    Config {
+        name=SliTazMenu.directory
+        image=slitaz-menu
+        name=SliTazMenu.directory
+        system {
+        }
+        separator {
+        }
+        item {
+            command=run
+        }
+        separator {
+        }
+        item {
+            image=gnome-logout
+            command=logout
+        }
+    }
+}
+
+Plugin {
     type = space
     Config {
         Size=2
@@ -31,17 +53,29 @@ Plugin {
 }
 
 Plugin {
-    type = launchbar
+    type = pager
+}
+
+Plugin {
+    type = space
+    expand=1
     Config {
-        Button {
-            id=/usr/share/applications/sakura.desktop
-        }
-        Button {
-            id=/usr/share/applications/tazpanel.desktop
-        }
-        Button {
-            id=/usr/share/applications/midori.desktop
-        }
+        Size=2
+    }
+}
+
+Plugin {
+    type = taskbar
+    Config {
+        tooltips=1
+        IconsOnly=1
+        ShowAllDesks=0
+        UseMouseWheel=1
+        UseUrgencyHint=1
+        FlatButton=1
+        MaxTaskWidth=200
+        spacing=1
+        GroupedTasks=1
     }
 }
 
@@ -54,20 +88,13 @@ Plugin {
 }
 
 Plugin {
-    type = dclock
-    Config {
-        ClockFmt=%A %d %B - %R
-        TooltipFmt=%A %d %B %Y - %T
-        BoldFont=1
-        IconOnly=0
-    }
+    type = tray
 }
 
 Plugin {
     type = space
-    expand=1
     Config {
-        Size=2
+        Size=4
     }
 }
 
@@ -128,6 +155,17 @@ Plugin {
     type = space
     Config {
         Size=4
+    }
+}
+
+Plugin {
+    type = dclock
+    Config {
+        ClockFmt=%R
+        TooltipFmt=%A %d %B %Y - %T
+        BoldFont=1
+        IconOnly=0
+        CenterText=1
     }
 }
 
