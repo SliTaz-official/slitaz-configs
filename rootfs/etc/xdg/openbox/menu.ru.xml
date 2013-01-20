@@ -2,125 +2,131 @@
 
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
-	<!-- Favorite applications -->
-	<menu id="favorites-menu" label="Избранные приложения">
-		<item label="Файловый менеджер">
-			<action name="Execute"><command>file-manager</command></action>
-		</item>
-		<item label="Терминал">
-			<action name="Execute"><command>terminal</command></action>
-		</item>
-		<item label="Браузер">
-			<action name="Execute"><command>browser</command></action>
-		</item>
-		<item label="Текстовый редактор">
-			<action name="Execute"><command>editor</command></action>
-		</item>
-		<separator />
-		<item label="Настроить избранное">
-			<action name="Execute"><command>desktopbox tazapps</command></action>
-		</item>
-	</menu>
+<!-- Favorite applications -->
+<menu id="favorites-menu" label="Избранные приложения">
+  <item label="Файловый менеджер">
+    <action name="Execute"><command>file-manager</command></action>
+  </item>
+  <item label="Терминал">
+    <action name="Execute"><command>terminal</command></action>
+  </item>
+  <item label="Браузер">
+    <action name="Execute"><command>browser</command></action>
+  </item>
+  <item label="Текстовый редактор">
+    <action name="Execute"><command>editor</command></action>
+  </item>
+  <separator />
+  <item label="Настроить избранное">
+    <action name="Execute"><command>desktopbox tazapps</command></action>
+  </item>
+</menu>
 
-	<!-- Desktop effects -->
-	<menu id="desktop-effects" label="Эффекты рабочего стола">
-		<item label="Включить композитный менеджер">
-			<action name="Execute"><command>xcompmgr</command></action>
-		</item>
-		<item label="Включить тени">
-			<action name="Execute"><command>xcompmgr -c -r 10</command></action>
-		</item>
-		<item label="Включить тени/затухание">
-			<action name="Execute"><command>xcompmgr -c -f -r 10</command></action>
-		</item>
-		<separator />
-		<item label="Установить прозрачность (общую)">
-			<action name="Execute">
-				<command>transset-df --actual --max 60</command>
-			</action>
-		</item>
-		<item label="Установить прозрачность (при клике)">
-			<action name="Execute">
-				<command>transset-df --click --max 60</command>
-			</action>
-		</item>
-		<separator />
-		<item label="Остановить все эффекты">
-			<action name="Execute"><command>killall xcompmgr</command></action>
-		</item>
-	</menu>
+<!-- Desktop effects -->
+<menu id="desktop-effects" label="Эффекты рабочего стола">
+  <item label="Включить композитный менеджер">
+    <action name="Execute"><command>xcompmgr</command></action>
+  </item>
+  <item label="Включить тени">
+    <action name="Execute"><command>xcompmgr -c -r 10 -o 0.5</command></action>
+  </item>
+  <item label="Включить тени и затухание">
+    <action name="Execute"><command>xcompmgr -c -f -r 10 -o 0.5</command></action>
+  </item>
+  <separator />
+  <item label="Включить полупрозрачность (actual)">
+    <action name="Execute">
+      <command>transset-df --actual --max 60</command>
+    </action>
+  </item>
+  <item label="Включить полупрозрачность (click)">
+    <action name="Execute">
+      <command>transset-df --click --max 60</command>
+    </action>
+  </item>
+  <separator />
+  <item label="Выключить все эффекты">
+    <action name="Execute"><command>killall xcompmgr</command></action>
+  </item>
+</menu>
 
-	<!-- SliTaz Live (Tazlito and Tazusb) -->
-	<menu id="slitaz-live-menu" label="SliTaz Live">
-		<item label="TazLito — утилита LiveCD">
-			<action name="Execute"><command>subox tazlitobox</command></action>
-		</item>
-		<item label="TazUSB — утилита LiveUSB">
-			<action name="Execute"><command>subox tazusbbox</command></action>
-		</item>
-		<separator />
-		<item label="TazUSB сохранить (gzip)">
-			<action name="Execute">
-				<command>subox "xterm -e tazusb writefs gzip"</command>
-			</action>
-		</item>
-		<item label="TazUSB сохранить (lzma)">
-			<action name="Execute">
-				<command>subox "xterm -e tazusb writefs lzma"</command>
-			</action>
-		</item>
-		<item label="TazUSB сохранить (без сжатия)">
-			<action name="Execute">
-				<command>subox "xterm -e tazusb writefs none"</command>
-			</action>
-		</item>
-	</menu>
+<!-- SliTaz Live (Tazlito and Tazusb) -->
+<menu id="slitaz-live-menu" label="SliTaz Live">
+  <item label="TazLito — утилита LiveCD">
+    <action name="Execute"><command>subox tazlito-wiz</command></action>
+  </item>
+  <item label="TazUSB — утилита LiveUSB">
+    <action name="Execute"><command>subox tazusb-box</command></action>
+  </item>
+  <separator />
+  <item label="TazUSB Writefs (Gzip)">
+    <action name="Execute">
+      <command>subox "xterm -e tazusb writefs gzip"</command>
+    </action>
+  </item>
+  <item label="TazUSB Writefs (Lzma)">
+    <action name="Execute">
+      <command>subox "xterm -e tazusb writefs lzma"</command>
+    </action>
+  </item>
+  <item label="TazUSB Writefs (без сжатия)">
+    <action name="Execute">
+      <command>subox "xterm -e tazusb writefs none"</command>
+    </action>
+  </item>
+</menu>
 
-	<!-- Openbox configuration -->
-	<menu id="openbox-menu" label="Openbox">
-		<item label="Параметры Openbox">
-			<action name="Execute"><command>obconf</command></action>
-		</item>
-		<item label="Скрипты автозагрузки">
-			<action name="Execute">
-				<command>desktopbox autostart</command>
-			</action>
-		</item>
-		<item label="Меню Openbox">
-			<action name="Execute">
-				<command>editor ~/.config/openbox/menu.xml</command>
-			</action>
-		</item>
-		<separator />
-		<item label="Перенастроить">
-			<action name="Reconfigure" />
-		</item>
-		<item label="Перезапустить">
-			<action name="Restart" />
-		</item>
-	</menu>
+<!-- Openbox configuration -->
+<menu id="openbox-menu" label="Openbox">
+  <item label="Настройка параметров">
+    <action name="Execute"><command>obconf</command></action>
+  </item>
+  <item label="Скрипт автозагрузки">
+    <action name="Execute">
+      <command>desktopbox autostart</command>
+    </action>
+  </item>
+  <item label="Меню Openbox">
+    <action name="Execute">
+      <command>editor ~/.config/openbox/menu.xml</command>
+    </action>
+  </item>
+  <separator />
+  <item label="Обновить настройки">
+    <action name="Reconfigure" />
+  </item>
+  <item label="Перезагрузить Openbox">
+    <action name="Restart" />
+  </item>
+</menu>
 
-	<menu id="root-menu" label="Openbox 3">
-		<!-- <separator label="SliTaz Openbox" /> -->
-		<item label="Создать новый файл или папку">
-			<action name="Execute"><command>tazbox new-file</command></action>
-		</item>
-		<item label="Запустить приложение">
-			<action name="Execute"><command>lxpanelctl run</command></action>
-		</item>
-		<separator />
-		<menu id="favorites-menu" />
-		<!-- Pipe menu to open folder using GTK bookmarks -->
-		<menu id="open-folder-menu" label="Открыть папку"
-			execute="/usr/lib/openbox/open-folder-menu.sh" />
-		<menu id="desktop-effects" />
-		<menu id="slitaz-live-menu" />
-		<menu id="openbox-menu" />
-		<menu id="client-list-menu" />
-		<separator />
-		<item label="Выйти">
-			<action name="Execute"><command>tazbox logout</command></action>
-		</item>
-	</menu>
+<menu id="root-menu" label="Openbox 3">
+  <!-- <separator label="SliTaz Openbox" /> -->
+  <item label="Создать файл или папку" icon="/usr/share/icons/SliTaz/mimetypes/32/empty.png">
+    <action name="Execute"><command>tazbox new-file</command></action>
+  </item>
+  <item label="Запустить приложение"
+    icon="/usr/share/icons/SliTaz/mimetypes/32/exec.png">
+    <action name="Execute"><command>lxpanelctl run</command></action>
+  </item>
+  <separator />
+  <menu id="favorites-menu" icon="/usr/share/icons/SliTaz/places/32/user-bookmarks.png" />
+  <!-- Pipe menu to open folder using GTK bookmarks -->
+  <menu id="open-folder-menu" label="Открыть папку"
+        icon="/usr/share/icons/SliTaz/places/32/folder-open.png"
+        execute="/usr/lib/openbox/open-folder-menu.sh" />
+  <menu id="desktop-effects"
+        icon="/usr/share/icons/SliTaz/apps/22/desktop-effects.png" />
+  <menu id="slitaz-live-menu"
+        icon="/usr/share/pixmaps/slitaz-icon.png" />
+  <menu id="openbox-menu"
+        icon="/usr/share/pixmaps/openbox.png" />
+  <menu id="client-list-menu"
+        icon="/usr/share/icons/SliTaz/places/32/desktop.png" />
+  <separator />
+  <item label="Выйти из системы" icon="/usr/share/pixmaps/slitaz-logout.png">
+    <action name="Execute"><command>tazbox logout</command></action>
+  </item>
+</menu>
 
 </openbox_menu>

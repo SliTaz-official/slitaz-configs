@@ -28,7 +28,6 @@ Plugin {
     Config {
         name=SliTazMenu.directory
         image=slitaz-menu
-        name=SliTazMenu.directory
         system {
         }
         separator {
@@ -162,7 +161,7 @@ Plugin {
     type = dclock
     Config {
         ClockFmt=%R
-        TooltipFmt=%A %d %B %Y - %T
+        TooltipFmt=%c
         BoldFont=1
         IconOnly=0
         CenterText=1
