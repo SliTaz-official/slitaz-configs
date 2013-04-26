@@ -111,7 +111,7 @@ Plugin {
 Plugin {
     type = netstatus
     Config {
-        iface=wlan0
+        iface=eth0
         configtool=browser http://tazpanel:82/network.cgi
     }
 }
