@@ -18,7 +18,7 @@
   </item>
   <separator />
   <item label="Настроить избранное">
-    <action name="Execute"><command>desktopbox tazapps</command></action>
+    <action name="Execute"><command>tazbox tazapps</command></action>
   </item>
 </menu>
 
@@ -52,26 +52,26 @@
 
 <!-- SliTaz Live (Tazlito and Tazusb) -->
 <menu id="slitaz-live-menu" label="SliTaz Live">
-  <item label="TazLito — утилита LiveCD">
-    <action name="Execute"><command>subox tazlito-wiz</command></action>
+  <item label="TazLiTo — утилита LiveCD">
+    <action name="Execute"><command>tazbox su tazlito-wiz</command></action>
   </item>
   <item label="TazUSB — утилита LiveUSB">
-    <action name="Execute"><command>subox tazusb-box</command></action>
+    <action name="Execute"><command>tazbox su tazusb-box</command></action>
   </item>
   <separator />
   <item label="TazUSB Writefs (Gzip)">
     <action name="Execute">
-      <command>subox "xterm -e tazusb writefs gzip"</command>
+      <command>tazbox su "terminal -e tazusb writefs gzip"</command>
     </action>
   </item>
   <item label="TazUSB Writefs (Lzma)">
     <action name="Execute">
-      <command>subox "xterm -e tazusb writefs lzma"</command>
+      <command>tazbox su "terminal -e tazusb writefs lzma"</command>
     </action>
   </item>
   <item label="TazUSB Writefs (без сжатия)">
     <action name="Execute">
-      <command>subox "xterm -e tazusb writefs none"</command>
+      <command>tazbox su "terminal -e tazusb writefs none"</command>
     </action>
   </item>
 </menu>
@@ -83,7 +83,7 @@
   </item>
   <item label="Скрипт автозагрузки">
     <action name="Execute">
-      <command>desktopbox autostart</command>
+      <command>editor ~/.config/openbox/autostart</command>
     </action>
   </item>
   <item label="Меню Openbox">
@@ -105,24 +105,18 @@
   <item label="Создать файл или папку" icon="/usr/share/icons/SliTaz/mimetypes/32/empty.png">
     <action name="Execute"><command>tazbox new-file</command></action>
   </item>
-  <item label="Запустить приложение"
-    icon="/usr/share/icons/SliTaz/mimetypes/32/exec.png">
+  <item label="Запустить приложение" icon="/usr/share/icons/SliTaz/mimetypes/32/exec.png">
     <action name="Execute"><command>lxpanelctl run</command></action>
   </item>
   <separator />
   <menu id="favorites-menu" icon="/usr/share/icons/SliTaz/places/32/user-bookmarks.png" />
   <!-- Pipe menu to open folder using GTK bookmarks -->
-  <menu id="open-folder-menu" label="Открыть папку"
-        icon="/usr/share/icons/SliTaz/places/32/folder-open.png"
+  <menu id="open-folder-menu" label="Открыть папку" icon="/usr/share/icons/SliTaz/places/32/folder-open.png"
         execute="/usr/lib/openbox/open-folder-menu.sh" />
-  <menu id="desktop-effects"
-        icon="/usr/share/icons/SliTaz/apps/22/desktop-effects.png" />
-  <menu id="slitaz-live-menu"
-        icon="/usr/share/pixmaps/slitaz-icon.png" />
-  <menu id="openbox-menu"
-        icon="/usr/share/pixmaps/openbox.png" />
-  <menu id="client-list-menu"
-        icon="/usr/share/icons/SliTaz/places/32/desktop.png" />
+  <menu id="desktop-effects" icon="/usr/share/icons/SliTaz/apps/22/desktop-effects.png" />
+  <menu id="slitaz-live-menu" icon="/usr/share/pixmaps/slitaz-icon.png" />
+  <menu id="openbox-menu" icon="/usr/share/pixmaps/openbox.png" />
+  <menu id="client-list-menu" icon="/usr/share/icons/SliTaz/places/32/desktop.png" />
   <separator />
   <item label="Выйти из системы" icon="/usr/share/pixmaps/slitaz-logout.png">
     <action name="Execute"><command>tazbox logout</command></action>

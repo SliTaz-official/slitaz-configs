@@ -17,10 +17,9 @@
     <action name="Execute"><command>editor</command></action>
   </item>
   <separator />
-  <!-- TODO: Write a Yad frontend to applications.conf -->
-  <!-- <item label="Configure favorites">
-    <action name="Execute"><command>desktopbox tazapps</command></action>
-  </item> -->
+  <item label="Configure favorites">
+    <action name="Execute"><command>tazbox tazapps</command></action>
+  </item>
 </menu>
 
 <!-- Desktop effects -->
@@ -54,25 +53,25 @@
 <!-- SliTaz Live (Tazlito and Tazusb) -->
 <menu id="slitaz-live-menu" label="SliTaz Live">
   <item label="Tazlito LiveCD Tool">
-    <action name="Execute"><command>subox tazlito-wiz</command></action>
+    <action name="Execute"><command>tazbox su tazlito-wiz</command></action>
   </item>
   <item label="TazUSB LiveUSB Tool">
-    <action name="Execute"><command>subox tazusb-box</command></action>
+    <action name="Execute"><command>tazbox su tazusb-box</command></action>
   </item>
   <separator />
   <item label="TazUSB Writefs (gzip)">
     <action name="Execute">
-      <command>subox "xterm -e tazusb writefs gzip"</command>
+      <command>tazbox su "terminal -e tazusb writefs gzip"</command>
     </action>
   </item>
   <item label="TazUSB Writefs (lzma)">
     <action name="Execute">
-      <command>subox "xterm -e tazusb writefs lzma"</command>
+      <command>tazbox su "terminal -e tazusb writefs lzma"</command>
     </action>
   </item>
   <item label="TazUSB Writefs (none)">
     <action name="Execute">
-      <command>subox "xterm -e tazusb writefs none"</command>
+      <command>tazbox su "terminal -e tazusb writefs none"</command>
     </action>
   </item>
 </menu>
@@ -86,10 +85,6 @@
     <action name="Execute">
       <command>editor ~/.config/openbox/autostart</command>
     </action>
-  <!-- <item label="Openbox environment">
-    <action name="Execute">
-      <command>editor ~/.config/openbox/environment</command>
-    </action> -->
   </item>
   <item label="Openbox Menu">
     <action name="Execute">

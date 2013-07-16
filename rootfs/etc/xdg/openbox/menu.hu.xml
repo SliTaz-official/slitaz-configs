@@ -5,22 +5,20 @@
 <!-- Favorite applications -->
 <menu id="favorites-menu" label="Kedvenc alkalmazások">
   <item label="Fájlkezelõ">
-    <action name="Execute"><command>pcmanfm</command></action>
+    <action name="Execute"><command>file-manager</command></action>
   </item>
   <item label="Terminál">
-    <action name="Execute"><command>xterm</command></action>
-  </item>
-  <item label="Meghajtók csatolása">
-    <action name="Execute"><command>subox mountbox</command></action>
+    <action name="Execute"><command>terminal</command></action>
   </item>
   <item label="Web Böngészõ">
-    <action name="Execute"><command>firefox</command></action>
+    <action name="Execute"><command>browser</command></action>
   </item>
   <item label="Szövegszerkesztõ">
-    <action name="Execute"><command>leafpad</command></action>
+    <action name="Execute"><command>editor</command></action>
   </item>
-  <item label="Képnézegetõ">
-    <action name="Execute"><command>gpicview</command></action>
+  <separator />
+  <item label="Configure favorites">
+    <action name="Execute"><command>tazbox tazapps</command></action>
   </item>
 </menu>
 
@@ -55,27 +53,27 @@
 <!-- SliTaz Live (Tazlito and Tazusb) -->
 <menu id="slitaz-live-menu" label="SliTaz Live">
   <item label="Tazlito LiveCD Készítõ">
-    <action name="Execute"><command>subox tazlito-wiz</command></action>
+    <action name="Execute"><command>tazbox su tazlito-wiz</command></action>
   </item>
   <separator />
   <item label="TazUSB LiveUSB Készítõ">
     <action name="Execute">
-      <command>subox tazusb-box</command>
+      <command>tazbox su tazusb-box</command>
     </action>
   </item>
   <item label="TazUSB Writefs (gzip)">
     <action name="Execute">
-      <command>subox "xterm -e tazusb writefs gzip"</command>
+      <command>tazbox su "terminal -e tazusb writefs gzip"</command>
     </action>
   </item>
   <item label="TazUSB Writefs (lzma)">
     <action name="Execute">
-      <command>subox "xterm -e tazusb writefs lzma"</command>
+      <command>tazbox su "terminal -e tazusb writefs lzma"</command>
     </action>
   </item>
   <item label="TazUSB Writefs (none)">
     <action name="Execute">
-      <command>subox "xterm -e tazusb writefs none"</command>
+      <command>tazbox su "terminal -e tazusb writefs none"</command>
     </action>
   </item>
 </menu>
@@ -87,12 +85,12 @@
   </item>
   <item label="Automatikus indítás Script">
     <action name="Execute">
-      <command>geany ~/.config/openbox/autostart.sh</command>
+      <command>editor ~/.config/openbox/autostart</command>
     </action>
   </item>
   <item label="Openbox Menü">
     <action name="Execute">
-      <command>geany ~/.config/openbox/menu.xml</command>
+      <command>editor ~/.config/openbox/menu.xml</command>
     </action>
   </item>
   <separator />
@@ -106,24 +104,23 @@
 
 <menu id="root-menu" label="Openbox 3">
   <!-- <separator label="SliTaz Openbox" /> -->
-  <item label="Új fájl létrehozása">
+  <item label="Új fájl létrehozása" icon="/usr/share/icons/SliTaz/mimetypes/32/empty.png">
     <action name="Execute"><command>tazbox new-file</command></action>
   </item>
-  <item label="Futtatni az alkalmazást">
+  <item label="Futtatni az alkalmazást" icon="/usr/share/icons/SliTaz/mimetypes/32/exec.png">
     <action name="Execute"><command>lxpanelctl run</command></action>
   </item>
   <separator />
-  <menu id="favorites-menu" />
+  <menu id="favorites-menu" icon="/usr/share/icons/SliTaz/places/32/user-bookmarks.png" />
   <!-- Pipe menu to open folder using GTK bookmarks -->
-  <menu id="open-folder-menu" label="Mappa megnyitása"
+  <menu id="open-folder-menu" label="Mappa megnyitása" icon="/usr/share/icons/SliTaz/places/32/folder-open.png"
         execute="/usr/lib/openbox/open-folder-menu.sh" />
-  <menu id="desktop-effects" />
-  <menu id="slitaz-live-menu" />
+  <menu id="desktop-effects" icon="/usr/share/icons/SliTaz/apps/22/desktop-effects.png" />
+  <menu id="slitaz-live-menu" icon="/usr/share/pixmaps/slitaz-icon.png" />
+  <menu id="openbox-menu" icon="/usr/share/pixmaps/openbox.png" />
+  <menu id="client-list-menu" icon="/usr/share/icons/SliTaz/places/32/desktop.png" />
   <separator />
-  <menu id="client-list-menu" />
-  <menu id="openbox-menu" />
-  <separator />
-  <item label="Kijelentkezés">
+  <item label="Kijelentkezés" icon="/usr/share/pixmaps/slitaz-logout.png">
     <action name="Execute"><command>tazbox logout</command></action>
   </item>
 </menu>

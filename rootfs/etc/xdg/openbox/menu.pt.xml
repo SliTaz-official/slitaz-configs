@@ -5,7 +5,7 @@
 <!-- Aplicações Favoritas -->
 <menu id="favorites-menu" label="Aplicativos Favoritos">
   <item label="Gerenciador de Arquivos">
-    <action name="Execute"><command>pcmanfm</command></action>
+    <action name="Execute"><command>file-manager</command></action>
   </item>
   <item label="Terminal">
     <action name="Execute"><command>terminal</command></action>
@@ -18,7 +18,7 @@
   </item>
   <separator />
   <item label="Configure favorite">
-    <action name="Execute"><command>desktopbox tazapps</command></action>
+    <action name="Execute"><command>tazbox tazapps</command></action>
   </item>
 </menu>
 
@@ -53,25 +53,25 @@
 <!-- SliTaz Live (Tazlito e Tazusb) -->
 <menu id="slitaz-live-menu" label="SliTaz Live CD/USB">
   <item label="Tazlito Ferramenta LiveCD">
-    <action name="Execute"><command>subox tazlito-wiz</command></action>
+    <action name="Execute"><command>tazbox su tazlito-wiz</command></action>
   </item>
   <item label="TazUSB LiveUSB Tool">
-    <action name="Execute"><command>subox tazusb-box</command></action>
+    <action name="Execute"><command>tazbox su tazusb-box</command></action>
   </item>
   <separator />
   <item label="TazUSB Writefs (gzip)">
     <action name="Execute">
-      <command>subox "xterm -e tazusb writefs gzip"</command>
+      <command>tazbox su "terminal -e tazusb writefs gzip"</command>
     </action>
   </item>
   <item label="TazUSB Writefs (lzma)">
     <action name="Execute">
-      <command>subox "xterm -e tazusb writefs lzma"</command>
+      <command>tazbox su "terminal -e tazusb writefs lzma"</command>
     </action>
   </item>
   <item label="TazUSB Writefs (none)">
     <action name="Execute">
-      <command>subox "xterm -e tazusb writefs none"</command>
+      <command>tazbox su "terminal -e tazusb writefs none"</command>
     </action>
   </item>
 </menu>
@@ -83,7 +83,7 @@
   </item>
   <item label="Aplicações autoiniciadas">
     <action name="Execute">
-      <command>desktopbox autostart</command>
+      <command>editor ~/.config/openbox/autostart</command>
     </action>
   </item>
   <item label="Menu do Openbox">
@@ -102,23 +102,23 @@
 
 <menu id="root-menu" label="Openbox 3">
   <!-- <separator label="SliTaz Openbox" /> -->
-  <item label="Criar novo arquivo">
+  <item label="Criar novo arquivo" icon="/usr/share/icons/SliTaz/mimetypes/32/empty.png">
     <action name="Execute"><command>tazbox new-file</command></action>
   </item>
-  <item label="Execute o aplicativo">
+  <item label="Execute o aplicativo" icon="/usr/share/icons/SliTaz/mimetypes/32/exec.png">
     <action name="Execute"><command>lxpanelctl run</command></action>
   </item>
   <separator />
-  <menu id="favorites-menu" />
+  <menu id="favorites-menu" icon="/usr/share/icons/SliTaz/places/32/user-bookmarks.png" />
   <!-- Pipe menu to open folder using GTK bookmarks -->
-  <menu id="open-folder-menu" label="Locais Favoritos"
+  <menu id="open-folder-menu" label="Locais Favoritos" icon="/usr/share/icons/SliTaz/places/32/folder-open.png"
         execute="/usr/lib/openbox/open-folder-menu.sh" />
-  <menu id="desktop-effects" />
-  <menu id="slitaz-live-menu" />
-  <menu id="openbox-menu" />
-  <menu id="client-list-menu" />
+  <menu id="desktop-effects" icon="/usr/share/icons/SliTaz/apps/22/desktop-effects.png" />
+  <menu id="slitaz-live-menu" icon="/usr/share/pixmaps/slitaz-icon.png" />
+  <menu id="openbox-menu" icon="/usr/share/pixmaps/openbox.png" />
+  <menu id="client-list-menu" icon="/usr/share/icons/SliTaz/places/32/desktop.png" />
   <separator />
-  <item label="Sair">
+  <item label="Sair" icon="/usr/share/pixmaps/slitaz-logout.png">
     <action name="Execute"><command>tazbox logout</command></action>
   </item>
 </menu>
