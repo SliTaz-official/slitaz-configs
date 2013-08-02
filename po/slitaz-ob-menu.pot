@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR SliTaz
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: slitaz-ob-menu 5.1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-02 16:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ob-menu/menu.xml.in:22
+msgid "Favorite Applications"
+msgstr ""
+
+#: ob-menu/menu.xml.in:23
+msgid "File Manager"
+msgstr ""
+
+#: ob-menu/menu.xml.in:26
+msgid "Terminal"
+msgstr ""
+
+#: ob-menu/menu.xml.in:29
+msgid "Web Browser"
+msgstr ""
+
+#: ob-menu/menu.xml.in:32
+msgid "Text Editor"
+msgstr ""
+
+#: ob-menu/menu.xml.in:36
+msgid "Configure favorites"
+msgstr ""
+
+#: ob-menu/menu.xml.in:42
+msgid "Desktop Effects"
+msgstr ""
+
+#: ob-menu/menu.xml.in:43
+msgid "Activate composite"
+msgstr ""
+
+#: ob-menu/menu.xml.in:46
+msgid "Activate shadows"
+msgstr ""
+
+#: ob-menu/menu.xml.in:49
+msgid "Activate shadows/fade"
+msgstr ""
+
+#: ob-menu/menu.xml.in:53
+msgid "Set opacity (actual)"
+msgstr ""
+
+#: ob-menu/menu.xml.in:58
+msgid "Set opacity (click)"
+msgstr ""
+
+#: ob-menu/menu.xml.in:64
+msgid "Stop effects"
+msgstr ""
+
+#: ob-menu/menu.xml.in:70
+msgid "SliTaz Live"
+msgstr ""
+
+#: ob-menu/menu.xml.in:71
+msgid "TazLiTo LiveCD Tool"
+msgstr ""
+
+#: ob-menu/menu.xml.in:74
+msgid "TazUSB LiveUSB Tool"
+msgstr ""
+
+#: ob-menu/menu.xml.in:78
+msgid "TazUSB Writefs (gzip)"
+msgstr ""
+
+#: ob-menu/menu.xml.in:83
+msgid "TazUSB Writefs (lzma)"
+msgstr ""
+
+#: ob-menu/menu.xml.in:88
+msgid "TazUSB Writefs (none)"
+msgstr ""
+
+#: ob-menu/menu.xml.in:96
+msgid "Openbox"
+msgstr ""
+
+#: ob-menu/menu.xml.in:97
+msgid "ObConf"
+msgstr ""
+
+#: ob-menu/menu.xml.in:100
+msgid "Autostart Script"
+msgstr ""
+
+#: ob-menu/menu.xml.in:105
+msgid "Openbox Menu"
+msgstr ""
+
+#: ob-menu/menu.xml.in:111
+msgid "Reconfigure"
+msgstr ""
+
+#: ob-menu/menu.xml.in:114
+msgid "Restart"
+msgstr ""
+
+#: ob-menu/menu.xml.in:119
+msgid "Openbox 3"
+msgstr ""
+
+#: ob-menu/menu.xml.in:120
+msgid "SliTaz Openbox"
+msgstr ""
+
+#: ob-menu/menu.xml.in:122
+msgid "Create a new file or folder"
+msgstr ""
+
+#: ob-menu/menu.xml.in:126
+msgid "Run application"
+msgstr ""
+
+#: ob-menu/menu.xml.in:135
+msgid "Open Folder"
+msgstr ""
+
+#: ob-menu/menu.xml.in:145
+msgid "Logout"
+msgstr ""

@@ -1,0 +1,140 @@
+# Russian translations for slitaz-ob-menu package.
+# Copyright (C) 2013 SliTaz
+# This file is distributed under the same license as the slitaz-ob-menu package.
+# Aleksej Bobylev <al.bobylev@gmail.com>, 2012-2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: slitaz-ob-menu 5.1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-02 16:13+0300\n"
+"PO-Revision-Date: 2013-08-01 01:07+0300\n"
+"Last-Translator: Aleksej Bobylev <al.bobylev@gmail.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ob-menu/menu.xml.in:22
+msgid "Favorite Applications"
+msgstr "Избранные приложения"
+
+#: ob-menu/menu.xml.in:23
+msgid "File Manager"
+msgstr "Файловый менеджер"
+
+#: ob-menu/menu.xml.in:26
+msgid "Terminal"
+msgstr "Терминал"
+
+#: ob-menu/menu.xml.in:29
+msgid "Web Browser"
+msgstr "Браузер"
+
+#: ob-menu/menu.xml.in:32
+msgid "Text Editor"
+msgstr "Текстовый редактор"
+
+#: ob-menu/menu.xml.in:36
+msgid "Configure favorites"
+msgstr "Настроить избранное"
+
+#: ob-menu/menu.xml.in:42
+msgid "Desktop Effects"
+msgstr "Эффекты рабочего стола"
+
+#: ob-menu/menu.xml.in:43
+msgid "Activate composite"
+msgstr "Включить композитный менеджер"
+
+#: ob-menu/menu.xml.in:46
+msgid "Activate shadows"
+msgstr "Включить тени"
+
+#: ob-menu/menu.xml.in:49
+msgid "Activate shadows/fade"
+msgstr "Включить тени и затухание"
+
+#: ob-menu/menu.xml.in:53
+msgid "Set opacity (actual)"
+msgstr "Включить полупрозрачность (actual)"
+
+#: ob-menu/menu.xml.in:58
+msgid "Set opacity (click)"
+msgstr "Включить полупрозрачность (click)"
+
+#: ob-menu/menu.xml.in:64
+msgid "Stop effects"
+msgstr "Выключить все эффекты"
+
+#: ob-menu/menu.xml.in:70
+msgid "SliTaz Live"
+msgstr "SliTaz Live"
+
+#: ob-menu/menu.xml.in:71
+msgid "TazLiTo LiveCD Tool"
+msgstr "TazLiTo — утилита LiveCD"
+
+#: ob-menu/menu.xml.in:74
+msgid "TazUSB LiveUSB Tool"
+msgstr "TazUSB — утилита LiveUSB"
+
+#: ob-menu/menu.xml.in:78
+msgid "TazUSB Writefs (gzip)"
+msgstr "TazUSB Writefs (Gzip)"
+
+#: ob-menu/menu.xml.in:83
+msgid "TazUSB Writefs (lzma)"
+msgstr "TazUSB Writefs (Lzma)"
+
+#: ob-menu/menu.xml.in:88
+msgid "TazUSB Writefs (none)"
+msgstr "TazUSB Writefs (без сжатия)"
+
+#: ob-menu/menu.xml.in:96
+msgid "Openbox"
+msgstr "Openbox"
+
+#: ob-menu/menu.xml.in:97
+msgid "ObConf"
+msgstr "Настройка параметров"
+
+#: ob-menu/menu.xml.in:100
+msgid "Autostart Script"
+msgstr "Скрипт автозагрузки"
+
+#: ob-menu/menu.xml.in:105
+msgid "Openbox Menu"
+msgstr "Меню Openbox"
+
+#: ob-menu/menu.xml.in:111
+msgid "Reconfigure"
+msgstr "Обновить настройки"
+
+#: ob-menu/menu.xml.in:114
+msgid "Restart"
+msgstr "Перезагрузить Openbox"
+
+#: ob-menu/menu.xml.in:119
+msgid "Openbox 3"
+msgstr "Openbox 3"
+
+#: ob-menu/menu.xml.in:120
+msgid "SliTaz Openbox"
+msgstr "SliTaz Openbox"
+
+#: ob-menu/menu.xml.in:122
+msgid "Create a new file or folder"
+msgstr "Создать файл или папку"
+
+#: ob-menu/menu.xml.in:126
+msgid "Run application"
+msgstr "Запустить приложение"
+
+#: ob-menu/menu.xml.in:135
+msgid "Open Folder"
+msgstr "Открыть папку"
+
+#: ob-menu/menu.xml.in:145
+msgid "Logout"
+msgstr "Выйти из системы"
