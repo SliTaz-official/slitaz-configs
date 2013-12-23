@@ -24,7 +24,7 @@ which couldn't autoconfigure screen resolution and we needed to generate a
 Français
 ========
 Ce paquet fournit les fichiers, images et sons utilisés par défaut sur le coeur
-du LiveCD. Le paquets SliTaz est généré depuis le wok avec Tazwok. Il contient
+du LiveCD. Le paquets SliTaz est généré depuis le wok avec Cook. Il contient
 les thèmes, le menu, script de démarrage (autostart.sh) et le fichier RC utilisé
 par le gestionnaire de fenêtres Openbox. /usr/share contient aussi le thème pour
 le gestionnaire de connexion Slim et les fond d'écran du moment.
