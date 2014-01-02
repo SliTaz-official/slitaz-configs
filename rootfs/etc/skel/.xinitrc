@@ -13,8 +13,6 @@ case "$WINDOW_MANAGER" in
 		exec razor-session ;;
 	enlightenment)
 		exec enlightenment_start ;;
-	jwm|awesome|pekwm)
-		exec $1 ;;
 	*)
 		exec $WINDOW_MANAGER ;;
 esac
