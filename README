@@ -7,9 +7,9 @@ English
 SliTaz configs provide the files and images used by default on the core 
 LiveCD. A SliTaz package is generated from the wok and Tazwok. It contains 
 Openbox themes, an autostart script, a menu and RC file. /usr/share contains 
-the Slim Login Manager theme and the desktop background of the moment.
+the Slim Login Manager theme and the desktop background of the moment. All 
+artwork is done on SliTaz with mtPaint, The Gimp or Inkscape.
 
-All artwork is done on SliTaz with mtPaint, The Gimp or Inkscape.
 
 Files: ~/.xinitrc ~/.xsession
 ----------------------------
@@ -19,6 +19,18 @@ installed the files are copied from /etc/skel. Historically, these files
 were created by tazx at boot time because we were using a tiny Xvesa server
 which couldn't autoconfigure screen resolution and we needed to generate a
 .xsession with something like: Xvesa -screen 1024x768x24 &
+
+
+Syslinux/isolinux splash image
+------------------------------
+The image size must be: 640 x 480 pixels
+The image must be: 16-bit
+Dont ask why, the image must be a png with a jpg extension
+
+Use Gimp to create/modify an image then use 'convert' from the Imagemagick
+package to correct colors and color depth:
+
+$ convert -depth 16 -colors 65536 slitaz.jpg splash.jpg
 
 
 Français
