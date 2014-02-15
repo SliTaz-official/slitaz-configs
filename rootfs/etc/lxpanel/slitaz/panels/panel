@@ -34,11 +34,12 @@ Plugin {
         }
         item {
             command=run
+            image=gtk-execute
         }
         separator {
         }
         item {
-            image=gnome-logout
+            image=system-shutdown-panel-restart
             command=logout
         }
     }
