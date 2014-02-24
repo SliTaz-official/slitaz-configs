@@ -113,7 +113,7 @@ Plugin {
     type = netstatus
     Config {
         iface=eth0
-        configtool=browser http://tazpanel:82/network.cgi
+        configtool=tazpanel network
     }
 }
 
