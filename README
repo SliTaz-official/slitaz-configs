@@ -5,7 +5,7 @@ README for slitaz-configs
 English
 =======
 SliTaz configs provide the files and images used by default on the core 
-LiveCD. A SliTaz package is generated from the wok and Tazwok. It contains 
+LiveCD. A SliTaz package is generated from the wok and Cookutils. It contains 
 Openbox themes, an autostart script, a menu and RC file. /usr/share contains 
 the Slim Login Manager theme and the desktop background of the moment. All 
 artwork is done on SliTaz with mtPaint, The Gimp or Inkscape.
@@ -25,7 +25,7 @@ Syslinux/isolinux splash image
 ------------------------------
 The image size must be: 640 x 480 pixels
 The image must be: 16-bit
-Dont ask why, the image must be a png with a jpg extension
+Don't ask why, the image must be a png with a jpg extension
 
 Use Gimp to create/modify an image then use 'convert' from the Imagemagick
 package to correct colors and color depth:
