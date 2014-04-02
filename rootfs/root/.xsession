@@ -1,6 +1,6 @@
 # ~/.xsession: Start X window session manually on your system (startx).
 #
-. $HOME/.config/slitaz/applications.conf
+. /etc/slitaz/applications.conf
 Xorg &
 #xterm &
 #xpad &

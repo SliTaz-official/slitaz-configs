@@ -2,7 +2,7 @@
 # You can use F1 with Slim to change your window manager or configure
 # it permanently with your personal applications.conf file.
 #
-. $HOME/.config/slitaz/applications.conf
+. /etc/slitaz/applications.conf
 
 case $1 in
 	openbox|lxde*|xfce4|compiz|karmen|dwm) 
