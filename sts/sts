@@ -1,0 +1,37 @@
+#!/bin/sh
+#
+# This tool is used by SliTaz Tiny/Touch Screens desktop.
+#
+# Copyright (C) 2014 SliTaz ARM - BSD License
+# Author: Christophe Lincoln <pankso@slitaz.org>
+#
+
+data="/usr/share/slitaz/sts"
+obconf="${XDG_CONFIG_HOME}/openbox"
+
+case "$1" in
+	info)
+		if [ "$STS_DESKTOP_WM" ]; then
+			echo "STS_DESKTOP_WM : $STS_DESKTOP_WM"
+		else
+			echo "The sts desktop is not running"
+		fi ;;
+	setup)
+		# Setup a user session. Openbox configs are setup by sts-session
+		# but on a system update only $data files are updated so users may
+		# want to get latest configs with --forced from cmdline or via a
+		# GUI box.
+		
+		# sed -i "//sts-session/" ${XDG_CONFIG_HOME}/slitaz/applications.conf
+		user=$(id -un)
+		echo "TODO: sorry $user" ;;
+	kill)
+		# Close button on panel so we can have undecored windows
+		xid=$(xprop -root 32x '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)
+		pid=$(xprop -id ${xid} _NET_WM_PID | awk '{print $3}')
+		kill ${pid} ;;
+	*)
+		echo "$(basename $0) [setup|kill]" ;;
+esac
+
+exit 0

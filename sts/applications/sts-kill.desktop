@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Close application
+Name=Fermer l'application
+Exec=sts kill
+Icon=gtk-close
