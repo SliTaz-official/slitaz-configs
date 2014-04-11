@@ -19,7 +19,7 @@ install-sts:
 	install -m 0777 -d $(STSDATA)
 	install -m 0755 sts/sts $(BINDIR)/sts
 	install -m 0755 sts/sts-session $(BINDIR)/sts-session
-	cp -a sts/applications $(DESTDIR)$(PREFIX)/usr/share
+	cp -a sts/applications $(DESTDIR)$(PREFIX)/share
 	cp -a sts/lxpanel $(STSDATA)
 	cp -a sts/openbox $(STSDATA)
 
