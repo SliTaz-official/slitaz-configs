@@ -30,8 +30,8 @@ case "$1" in
 		xid=$(xprop -root 32x '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)
 		pid=$(xprop -id ${xid} _NET_WM_PID | awk '{print $3}')
 		kill ${pid} ;;
-	*)
-		echo "$(basename $0) [setup|kill]" ;;
+	*|help)
+		echo "$(basename $0) [info|kill]" ;;
 esac
 
 exit 0
