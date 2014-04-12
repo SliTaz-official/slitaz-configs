@@ -26,7 +26,7 @@ case "$1" in
 		user=$(id -un)
 		echo "TODO: sorry $user" ;;
 	kill)
-		# Close button on panel so we can have undecored windows
+		# Close button on panel so we can have undecorated windows
 		xid=$(xprop -root 32x '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)
 		pid=$(xprop -id ${xid} _NET_WM_PID | awk '{print $3}')
 		kill ${pid} ;;
