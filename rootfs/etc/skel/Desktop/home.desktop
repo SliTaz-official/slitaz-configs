@@ -1,8 +1,0 @@
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Type=Application
-Name=Home
-Name[fr]=Maison
-Name[ru]=Домашняя папка
-Exec=file-manager -w -n ~
-Icon=user-home
