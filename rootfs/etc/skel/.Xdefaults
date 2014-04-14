@@ -1,23 +1,31 @@
-!~/.Xdefault: Control the behavior of x-clients.
+!~/.Xdefault: Control the behavior of x-clients
 !
 
-! Xcursor theme (~/.icons).
+! Xcursor theme: ~/.icons
 !
 Xcursor.theme:		slitaz-polar
 
-! XTerm settings.
+! XTerm settings
 !
-xterm*background:	#000000
-xterm*foreground:	#ffffff
-xterm*cursorColor:	#d66018
-xterm*scrollBar:	off
-xterm*faceName:		DejaVu Sans Mono
-xterm*faceNameDoublesize:WenQuanYi WenQuanYi Micro Hei Mono-11
-xterm*faceSize:		11
-xterm*utf8:		2
-xterm*eightBitInput:	true
+xterm*background:	      #000000
+xterm*foreground:	      #ffffff
+xterm*cursorColor:	      #d66018
+xterm*scrollBar:	      off
+xterm*faceSize:		      11
+xterm*faceName:		      DejaVu Sans Mono
+xterm*faceNameDoublesize: WenQuanYi WenQuanYi Micro Hei Mono-11
+xterm*eightBitInput:	  true
+xterm*utf8:		          2
 
-! Xload settings.
+! Xload settings
 !
-!xload*background:	black
-!xload*foreground:	lightblue
+!xload*background:	       black
+!xload*foreground:	       lightblue
+
+! FLTK Theming
+!
+!Text.background:          #111111
+!fltk*scheme:              gtk+
+fltk*background:          #ededed
+fltk*foreground:          #000000
+
