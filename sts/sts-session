@@ -3,8 +3,10 @@
 # Start SliTaz Tiny/Touch Screens desktop session
 #
 
-export XDG_CONFIG_HOME="$HOME/.config"
 export STS_DESKTOP_WM="openbox"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
 
 data="/usr/share/slitaz/sts"
 obconf="${XDG_CONFIG_HOME}/openbox"
@@ -27,4 +29,4 @@ fi
 
 # Start Openbox
 exec openbox --config-file ${obconf}/sts-rc.xml \
-	--startup ${obconf}/openbox/sts-autostart
+	--startup ${obconf}/sts-autostart
