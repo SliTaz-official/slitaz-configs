@@ -22,10 +22,9 @@ fi
 
 # LXpanel configs
 if [ ! -d "${XDG_CONFIG_HOME}/openbox/lxpanel/sts" ]; then
-	cp -rf ${data}/openbox/lxpanel ${XDG_CONFIG_HOME}
+	cp -rf ${data}/lxpanel ${XDG_CONFIG_HOME}
 fi
 
 # Start Openbox
-exec openbox \
-	--config-file ${XDG_CONFIG_HOME}/openbox/sts-rc.xml \
-	--startup ${XDG_CONFIG_HOME}/openbox/sts-autostart
+exec openbox --config-file ${obconf}/sts-rc.xml \
+	--startup ${obconf}/openbox/sts-autostart
