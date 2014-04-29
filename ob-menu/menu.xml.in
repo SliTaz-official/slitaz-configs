@@ -1,3 +1,5 @@
+# don't forget to add "locale-**" as BUILD_DEPENDS to slitaz-configs receipt
+# in case of adding new menu languages
 case $1 in
 	en) L=C ;;
 	fr) L=fr_FR ;;

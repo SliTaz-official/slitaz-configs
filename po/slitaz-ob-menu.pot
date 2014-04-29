@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: slitaz-ob-menu 5.1.5\n"
+"Project-Id-Version: slitaz-ob-menu 5.1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-02 16:13+0300\n"
+"POT-Creation-Date: 2014-04-29 10:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,126 +17,126 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ob-menu/menu.xml.in:22
+#: ob-menu/menu.xml.in:24
 msgid "Favorite Applications"
 msgstr ""
 
-#: ob-menu/menu.xml.in:23
+#: ob-menu/menu.xml.in:25
 msgid "File Manager"
 msgstr ""
 
-#: ob-menu/menu.xml.in:26
+#: ob-menu/menu.xml.in:28
 msgid "Terminal"
 msgstr ""
 
-#: ob-menu/menu.xml.in:29
+#: ob-menu/menu.xml.in:31
 msgid "Web Browser"
 msgstr ""
 
-#: ob-menu/menu.xml.in:32
+#: ob-menu/menu.xml.in:34
 msgid "Text Editor"
 msgstr ""
 
-#: ob-menu/menu.xml.in:36
+#: ob-menu/menu.xml.in:38
 msgid "Configure favorites"
 msgstr ""
 
-#: ob-menu/menu.xml.in:42
+#: ob-menu/menu.xml.in:44
 msgid "Desktop Effects"
 msgstr ""
 
-#: ob-menu/menu.xml.in:43
+#: ob-menu/menu.xml.in:45
 msgid "Activate composite"
 msgstr ""
 
-#: ob-menu/menu.xml.in:46
+#: ob-menu/menu.xml.in:48
 msgid "Activate shadows"
 msgstr ""
 
-#: ob-menu/menu.xml.in:49
+#: ob-menu/menu.xml.in:51
 msgid "Activate shadows/fade"
 msgstr ""
 
-#: ob-menu/menu.xml.in:53
+#: ob-menu/menu.xml.in:55
 msgid "Set opacity (actual)"
 msgstr ""
 
-#: ob-menu/menu.xml.in:58
+#: ob-menu/menu.xml.in:60
 msgid "Set opacity (click)"
 msgstr ""
 
-#: ob-menu/menu.xml.in:64
+#: ob-menu/menu.xml.in:66
 msgid "Stop effects"
 msgstr ""
 
-#: ob-menu/menu.xml.in:70
+#: ob-menu/menu.xml.in:72
 msgid "SliTaz Live"
 msgstr ""
 
-#: ob-menu/menu.xml.in:71
+#: ob-menu/menu.xml.in:73
 msgid "TazLiTo LiveCD Tool"
 msgstr ""
 
-#: ob-menu/menu.xml.in:74
+#: ob-menu/menu.xml.in:76
 msgid "TazUSB LiveUSB Tool"
 msgstr ""
 
-#: ob-menu/menu.xml.in:78
+#: ob-menu/menu.xml.in:80
 msgid "TazUSB Writefs (gzip)"
 msgstr ""
 
-#: ob-menu/menu.xml.in:83
+#: ob-menu/menu.xml.in:85
 msgid "TazUSB Writefs (lzma)"
 msgstr ""
 
-#: ob-menu/menu.xml.in:88
+#: ob-menu/menu.xml.in:90
 msgid "TazUSB Writefs (none)"
 msgstr ""
 
-#: ob-menu/menu.xml.in:96
+#: ob-menu/menu.xml.in:98
 msgid "Openbox"
 msgstr ""
 
-#: ob-menu/menu.xml.in:97
+#: ob-menu/menu.xml.in:99
 msgid "ObConf"
 msgstr ""
 
-#: ob-menu/menu.xml.in:100
+#: ob-menu/menu.xml.in:102
 msgid "Autostart Script"
 msgstr ""
 
-#: ob-menu/menu.xml.in:105
+#: ob-menu/menu.xml.in:107
 msgid "Openbox Menu"
 msgstr ""
 
-#: ob-menu/menu.xml.in:111
+#: ob-menu/menu.xml.in:113
 msgid "Reconfigure"
 msgstr ""
 
-#: ob-menu/menu.xml.in:114
+#: ob-menu/menu.xml.in:116
 msgid "Restart"
 msgstr ""
 
-#: ob-menu/menu.xml.in:119
+#: ob-menu/menu.xml.in:121
 msgid "Openbox 3"
 msgstr ""
 
-#: ob-menu/menu.xml.in:120
+#: ob-menu/menu.xml.in:122
 msgid "SliTaz Openbox"
 msgstr ""
 
-#: ob-menu/menu.xml.in:122
+#: ob-menu/menu.xml.in:124
 msgid "Create a new file or folder"
 msgstr ""
 
-#: ob-menu/menu.xml.in:126
+#: ob-menu/menu.xml.in:128
 msgid "Run application"
 msgstr ""
 
-#: ob-menu/menu.xml.in:135
+#: ob-menu/menu.xml.in:137
 msgid "Open Folder"
 msgstr ""
 
-#: ob-menu/menu.xml.in:145
+#: ob-menu/menu.xml.in:147
 msgid "Logout"
 msgstr ""
