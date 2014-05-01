@@ -1,6 +1,6 @@
 [Storage Permissions]
-Identity=unix-group:disk
-Action=org.freedesktop.udisks2.filesystem-mount;org.freedesktop.udisks.drive-eject;org.freedesktop.udisks2.drive-detach;org.freedesktop.udisks2.luks-unlock;org.freedesktop.udisks2.inhibit-polling;org.freedesktop.udisks2.drive-set-spindown
+Identity=*
+Action=org.freedesktop.udisks2.*
 ResultAny=yes
 ResultActive=yes
-ResultInactive=no
+ResultInactive=yes
