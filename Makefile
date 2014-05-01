@@ -14,15 +14,6 @@ all: help
 help:
 	@echo "make [ pot | msgmerge | menu | clean ]"
 
-install-sts:
-	install -m 0777 -d $(BINDIR)
-	install -m 0777 -d $(STSDATA)
-	install -m 0755 sts/sts $(BINDIR)/sts
-	install -m 0755 sts/sts-session $(BINDIR)/sts-session
-	cp -a sts/applications $(DESTDIR)$(PREFIX)/share
-	cp -a sts/lxpanel $(STSDATA)
-	cp -a sts/openbox $(STSDATA)
-
 pot:
 	xgettext -o po/$(DOMAIN).pot --force-po --copyright-holder=SliTaz \
 		--package-name=$(DOMAIN) --package-version=5.1.6 -L Shell $(MENU)
