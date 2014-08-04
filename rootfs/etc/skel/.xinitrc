@@ -7,8 +7,9 @@
 [ "$1" ] && WINDOW_MANAGER="$1"
 
 case "$WINDOW_MANAGER" in
-	openbox|lxde*|xfce4|compiz|karmen|dwm|fluxbox*)
-		exec ${WINDOW_MANAGER%-session}-session ;;
+	openbox|lxde*|lxqt*|xfce4|compiz|karmen|dwm|fluxbox*)
+		exec dbus-launch --sh-syntax --exit-with-session \
+		${WINDOW_MANAGER%-session}-session ;;
 	razor*)
 		exec razor-session ;;
 	enlightenment)
