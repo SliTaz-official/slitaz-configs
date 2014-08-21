@@ -9,7 +9,7 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_CURRENT_DESKTOP=openbox
 
 # /etc/xdg/menus/${XDG_MENU_PREFIX}applications.menu
-export XDG_MENU_PREFIX=''
+export XDG_MENU_PREFIX='lxde-'
 
 
 # Less Colors for Man Pages in SliTaz
