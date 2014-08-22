@@ -284,11 +284,11 @@
         <command>lxpanelctl run</command>
       </action>
     </keybind>
-    <keybind key="Super_L">
+    <keybind key="C-A-Delete">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>App Menu</name>
+          <name>AppMenu</name>
         </startupnotify>
         <command>lxpanelctl menu</command>
       </action>
