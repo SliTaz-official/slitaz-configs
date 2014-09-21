@@ -6,14 +6,22 @@
 
 [ "$1" ] && WINDOW_MANAGER="$1"
 
+EXEC="exec dbus-launch --sh-syntax --exit-with-session"
+S="/tmp/X-output" #	http://root:root@tazpanel:82/boot.cgi?log#slim
+
+LOG=0;	case "$LOG" in
+	0) X="/dev/null"; echo WM_stdout '>' $X in $HOME/.xinitrc >$S ;W=$X ;;
+	1) X=$S ; W=$X ; rm -f $W ;;
+	2) X=$S ; W="$HOME/.wm_debug+warnings" ; rm -f $W $X ;;
+esac
+
 case "$WINDOW_MANAGER" in
 	openbox|lxde*|lxqt*|xfce4|compiz|karmen|dwm|fluxbox*)
-		exec dbus-launch --sh-syntax --exit-with-session \
-		${WINDOW_MANAGER%-session}-session ;;
+		$EXEC ${WINDOW_MANAGER%-session}-session ;;
 	razor*)
-		exec razor-session ;;
+		$EXEC razor-session ;;
 	enlightenment)
-		exec enlightenment_start ;;
+		$EXEC enlightenment_start ;;
 	*)
-		exec $WINDOW_MANAGER ;;
-esac
+		$EXEC $WINDOW_MANAGER ;;
+esac	2>>$W >>$X

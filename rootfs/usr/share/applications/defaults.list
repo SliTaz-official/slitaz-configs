@@ -13,6 +13,6 @@ application/x-cd-image=isomaster.desktop
 text/plain=leafpad.desktop
 text/html=midori.desktop
 
-image/x-ico=viewnior.desktop
-image/png=viewnior.desktop
-image/jpeg=viewnior.desktop
+image/x-ico=gpicview.desktop
+image/png=gpicview.desktop
+image/jpeg=gpicview.desktop

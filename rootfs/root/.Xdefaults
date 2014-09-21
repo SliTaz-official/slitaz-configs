@@ -12,7 +12,7 @@ xterm*foreground:	      #ffffff
 xterm*cursorColor:	      #d66018
 xterm*scrollBar:	      off
 xterm*faceSize:		      11
-xterm*faceName:		      DejaVu Sans Mono
+xterm*faceName:		      xft:DejaVu Sans Mono:autohint=true
 xterm*faceNameDoublesize: WenQuanYi WenQuanYi Micro Hei Mono-11
 xterm*eightBitInput:	  true
 xterm*utf8:		          2
