@@ -53,7 +53,7 @@ msgstr "Active les ombres"
 
 #: ob-menu/menu.xml.in:49
 msgid "Activate shadows/fade"
-msgstr "Activer les ombres fade"
+msgstr "Activer les ombres/fondus"
 
 #: ob-menu/menu.xml.in:53
 msgid "Set opacity (actual)"
@@ -61,11 +61,11 @@ msgstr "Régler l'opacité (actuel)"
 
 #: ob-menu/menu.xml.in:58
 msgid "Set opacity (click)"
-msgstr "Régler l'opacité (clicque)"
+msgstr "Régler l'opacité (clic)"
 
 #: ob-menu/menu.xml.in:64
 msgid "Stop effects"
-msgstr "Stoper les effets"
+msgstr "Stopper les effets"
 
 #: ob-menu/menu.xml.in:70
 msgid "SliTaz Live"
