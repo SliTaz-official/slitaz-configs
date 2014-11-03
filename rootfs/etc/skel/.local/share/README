@@ -1,4 +1,3 @@
-
-User specific data files
+~/.local/share/ - User specific data files
 
 XDG variable: XDG_DATA_HOME

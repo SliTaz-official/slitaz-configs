@@ -1,0 +1,25 @@
+[Desktop Entry]
+Type=Link
+Name=shell script
+Name[ar]=سكربت شِل
+Name[cs]=Skript shellu
+Name[da]=skalprogram
+Name[de]=Shell-Skript
+Name[el]=αρχείο εντολών φλοιού
+Name[es]=script en shell
+Name[fr]=script shell
+Name[hu]=héj-parancsfájl
+Name[id]=skrip shell
+Name[it]=Script shell
+Name[pl]=Skrypt powłoki
+Name[pt]='script' de consola
+Name[pt_BR]=Script shell
+Name[ru]=сценарий оболочки UNIX
+Name[sl]=lupinski skript
+Name[sv]=skalskript
+Name[uk]=скрипт оболонки
+Name[zh_CN]=shell 脚本
+Name[zh_TW]=shell 指令稿
+Comment=Please enter shell script file name:
+Comment[ru]=Введите имя файла сценария оболочки UNIX:
+URL=name.sh

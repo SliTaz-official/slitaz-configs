@@ -1,4 +1,3 @@
-
-Per-user and application configuration files
+~/.config/ - Per-user and application configuration files
 
 XDG variable: XDG_CONFIG_HOME

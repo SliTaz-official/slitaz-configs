@@ -1,0 +1,24 @@
+[Desktop Entry]
+Type=Link
+Name=HTML document
+Name[ar]=مستند HTML
+Name[cs]=Dokument HTML
+Name[da]=HTML-dokument
+Name[de]=HTML-Dokument
+Name[el]=έγγραφο HTML
+Name[es]=documento HTML
+Name[fr]=document HTML
+Name[hu]=HTML dokumentum
+Name[id]=Dokumen HTML
+Name[it]=Documento HTML
+Name[pl]=Dokument HTML
+Name[pt_BR]=Documento HTML
+Name[ru]=документ HTML
+Name[sl]=Dokument HTML
+Name[sv]=HTML-dokument
+Name[uk]=документ HTML
+Name[zh_CN]=HTML 文档
+Name[zh_TW]=HTML 文件
+Comment=Please enter HTML document file name:
+Comment[ru]=Введите имя документа HTML:
+URL=name.html

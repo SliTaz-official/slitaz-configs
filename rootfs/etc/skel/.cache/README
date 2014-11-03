@@ -1,4 +1,3 @@
-
-User cache directory
+~/.cache/ - User cache directory
 
 XDG variable: XDG_CACHE_HOME

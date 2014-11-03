@@ -1,4 +1,4 @@
-# $(XDG_CONFIG_HOME)/user-dirs.dirs
+# $XDG_CONFIG_HOME/user-dirs.dirs
 # Current set of directories for the user
 
 XDG_DESKTOP_DIR="$HOME/Desktop"

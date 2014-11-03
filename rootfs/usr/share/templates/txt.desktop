@@ -1,0 +1,26 @@
+[Desktop Entry]
+Type=Link
+Name=plain text document
+Name[ar]=مستند نصي مجرد
+Name[cs]=Prostý textový dokument
+Name[da]=rent tekstdokument
+Name[de]=Einfaches Textdokument
+Name[el]=έγγραφο απλού κειμένου
+Name[es]=documento de texto sencillo
+Name[fr]=document texte brut
+Name[hu]=egyszerű szöveg
+Name[id]=dokumen teks biasa
+Name[it]=Documento in testo semplice
+Name[pl]=Zwykły dokument tekstowy
+Name[pt]=documento em texto simples
+Name[pt_BR]=Documento somente texto
+Name[ru]=текстовый документ
+Name[sk]=Obyčajný textový dokument
+Name[sl]=običajna besedilna datoteka
+Name[sv]=vanligt textdokument
+Name[uk]=звичайний текстовий документ
+Name[zh_CN]=纯文本文档
+Name[zh_TW]=純文字文件
+Comment=Please enter text document file name:
+Comment[ru]=Введите имя текстового документа:
+URL=name.txt
