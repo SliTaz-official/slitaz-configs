@@ -1,59 +1,65 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="pt" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>SliTaz - Web Homepage</title>
-    <meta charset="utf-8" />
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
+  <title>SliTaz - Start</title>
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <!-- Header -->
 <div id="header">
-	<div id="logo"></div>
-	<div id="network">
-		<a href="http://www.slitaz.org/">Home</a>
-		<a href="http://scn.slitaz.org/">Comunidade</a>
-		<a href="http://doc.slitaz.org/">Doc</a>
-		<a href="http://forum.slitaz.org/">Fórum</a>
-		<a href="http://irc.slitaz.org/">IRC</a>
-		<a href="http://slitaz.pro/">Pro</a>
-		<a href="http://shop.slitaz.org/">Shop</a>
-		<a href="http://bugs.slitaz.org/">Bugs</a>
-		<a href="http://hg.slitaz.org/">Hg</a>
-	</div>
-	<h1>SliTaz Web Home</h1>
+  <h1>SliTaz Web Home</h1>
+  <div id="network">
+    <a href="http://www.slitaz.org/">Home</a>
+    <a href="http://scn.slitaz.org/">Blog</a>
+    <a href="http://doc.slitaz.org/">Doc</a>
+    <a href="http://forum.slitaz.org/">Fórum</a>
+    <a href="http://irc.slitaz.org/">IRC</a>
+    <a href="http://slitaz.pro/">Pro</a>
+    <a href="http://shop.slitaz.org/">Shop</a>
+    <a href="http://bugs.slitaz.org/">Bugs</a>
+    <a href="http://hg.slitaz.org/">Hg</a>
+  </div>
 </div>
-
-<!-- Block -->
-<div id="block"></div>
 
 <!-- Content -->
 <div id="content">
 
 <div class="searchbox">
-	<form method="get" action="https://duckduckgo.com/">
-		<p>
-			<input type="text" name="q" size="24" style="width: 70%;"
-				maxlength="255" />
-			<input type="submit" name="" value="Search" />
-			<input type="hidden" name="t" value="slitaz" />
-		</p>
-	</form>
+  <form method="get" action="https://duckduckgo.com/">
+    <small class="title">Descubra o mundo com SliTaz</small>
+    <p>
+      <input type="text" name="q" size="24" maxlength="255" />
+      <input type="submit" name="" value="Buscar" />
+      <input type="hidden" name="t" value="slitaz" />
+    </p>
+  </form>
 </div>
 
 <!-- SliTaz Social -->
-<div id="social">
-	SliTaz @
-	<a href="http://twitter.com/slitaz">Twitter</a>
-	<a href="http://www.facebook.com/slitaz">Facebook</a>
-	<a href="http://distrowatch.com/slitaz">Distrowatch</a>
-	<a href="http://pt.wikipedia.org/wiki/SliTaz">Wikipédia</a>
-	<a href="http://flattr.com/profile/slitaz">Flattr</a>
+<div id="social">Siga-nos para obter mais notícias &hellip;<br>
+  <a href="http://twitter.com/slitaz">Twitter</a>
+  <a href="http://www.facebook.com/slitaz">Facebook</a>
+  <a href="http://distrowatch.com/slitaz">Distrowatch</a>
+  <a href="http://pt.wikipedia.org/wiki/SliTaz">Wikipédia</a>
+  <a href="http://flattr.com/profile/slitaz">Flattr</a>
 </div>
+
+<!-- Support Us -->
+<div class="support">
+  <small><span class="love">&hearts;</span> Você também pode se tornar um patrocinador oficial via uma doação mensal ou fornecendo hardware ou recursos para servidores. <a href="http://www.slitaz.org/pt/sponsor/">Mais informações.</a>.</small>
+</div>
+
+  <p class="copyright">Copyright &copy; Slitaz GNU/Linux - BSD License</p>
 
 <!-- End of content -->
 </div>
+
+<!-- @script:section -->
+<script src="lib/main.js"></script>
 
 </body>
 </html>
