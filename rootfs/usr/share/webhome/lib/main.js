@@ -1,17 +1,7 @@
 // Main.js
 // Copyright (C) Slitaz GNU/Linux - BSD License
 
-// --- Open and Close (button) - *** To Future ***
-function btn(obj){
-  var el = document.getElementById(obj);
-    if(el.style.display != "block"){
-    el.style.display = "block";
-  }else{
-  el.style.display = "none";
-  }
-}
-
-// --- Background Slide Show (4 img's with 8 sec to view)
+// --- Background Slide Show (4 img's with 10 sec to view)
 // --- All images are "public domain license" by Vera Kratochvil.
 
     var imageCount = 0;
