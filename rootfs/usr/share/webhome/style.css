@@ -21,6 +21,9 @@ header h1 {float:left;background:url(img/slitaz.png) 5% 50% no-repeat;color:#FFF
 #network {float:right;text-align:center;width:560px;padding:2% 0;}
 #network a {display: inline-block;color:#CCC;font-weight:bold;padding:8px;border-radius:2px;}
 #network a:hover {background:#C64F00;color:#FFF;}
+#network span {display:none;}
+.hidden {display:none!important;}
+.hidden+span {display:inline!important;}
 
 /* @content */
 #content {padding:2% 0 5% 0;}
