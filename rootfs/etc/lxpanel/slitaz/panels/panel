@@ -19,15 +19,18 @@ Global {
     fontsize=10
     fontcolor=#cfcfcf
     usefontsize=0
-    background=0
+    background=1
+    backgroundfile=/usr/share/themes/Clearlooks Human Dark/gtk-2.0/Panels/panel-bg-dark.png
     iconsize=22
+    loglevel=2
 }
 
 Plugin {
     type = menu
     Config {
         name=SliTazMenu.directory
-        image=slitaz-menu
+        image=start-here
+        tintcolor=#33230D
         system {
         }
         separator {
@@ -130,13 +133,13 @@ Plugin {
         HideIfNoBattery=0
         AlarmCommand=tazbox notify "Warning: battery low" "dialog-warning"
         AlarmTime=5
-        BackgroundColor=#1b0c03
+        BackgroundColor=#404040
         BorderWidth=3
-        ChargingColor1=#cfcfcf
-        ChargingColor2=#cfcfcf
-        DischargingColor1=#473b34
-        DischargingColor2=#473b34
-        Size=14
+        ChargingColor1=#00A100
+        ChargingColor2=#00A100
+        DischargingColor1=#DB2C23
+        DischargingColor2=#DB2C23
+        Size=11
     }
 }
 
@@ -170,10 +173,14 @@ Plugin {
 }
 
 Plugin {
-    type = launchbar
+    type = menu
     Config {
-        Button {
-            id=/usr/share/applications/slitaz-logout.desktop
+        name=user.directory
+        image=avatar-default
+        tintcolor=#33230D
+        item {
+            image=system-shutdown-panel-restart
+            command=logout
         }
     }
 }
