@@ -82,7 +82,7 @@ msgstr "TazUSB — утилита Live USB"
 
 #: ob-menu/menu.xml.in:80
 msgid "TazUSB Writefs (gzip)"
-msgstr "TazUSB Writefs (Gzip)"
+msgstr "TazUSB Writefs (Gzip, глючный)"
 
 #: ob-menu/menu.xml.in:85
 msgid "TazUSB Writefs (lzma)"
@@ -102,7 +102,7 @@ msgstr "Настройка параметров"
 
 #: ob-menu/menu.xml.in:102
 msgid "Autostart Script"
-msgstr "Скрипт автозагрузки"
+msgstr "Автозагрузка"
 
 #: ob-menu/menu.xml.in:107
 msgid "Openbox Menu"

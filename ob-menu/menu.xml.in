@@ -38,6 +38,9 @@ cat << EOT
   <item label="$(gettext 'Configure favorites')">
     <action name="Execute"><command>tazbox tazapps</command></action>
   </item>
+  <item label="Configure/install favorites (tazx)">
+    <action name="Execute"><command>terminal -e tazx</command></action>
+  </item>
 </menu>
 
 <!-- Desktop effects -->
@@ -101,12 +104,23 @@ cat << EOT
   </item>
   <item label="$(gettext 'Autostart Script')">
     <action name="Execute">
-      <command>editor ~/.config/openbox/autostart</command>
+      <command>sh -c '\\
+	case \$XDG_CURRENT_DESKTOP in
+		openbox) echo n | cp -i \\
+			/etc/xdg/openbox/autostart ~/.config/openbox/autostart
+			editor ~/.config/openbox/autostart ;;
+		LXDE|*)	usersauto="\$XDG_CONFIG_HOME/autostart"
+			[ -d \$usersauto ] || usersauto=''
+			pcmanfm -n /etc/xdg/autostart \$usersauto ;;
+	esac' </command>
     </action>
   </item>
   <item label="$(gettext 'Openbox Menu')">
     <action name="Execute">
-      <command>editor ~/.config/openbox/menu.xml</command>
+      <command>sh -c 'echo n | \\
+       cp -i /etc/xdg/openbox/menu.xml ~/.config/openbox/menu.xml;
+       editor ~/.config/openbox/menu.xml'
+      </command>
     </action>
   </item>
   <separator />
