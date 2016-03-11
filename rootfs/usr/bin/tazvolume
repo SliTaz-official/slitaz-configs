@@ -1,0 +1,55 @@
+#!/bin/sh
+# Change sound volume with notifications
+# SliTaz GNU/Linux
+# Aleksej Bobylev <al.bobylev@gmail.com>, March, 2016
+
+# Deal with commands: "toggle" (for mute/unmute), "+" and "-" (+- 5%), or number (set volume %)
+case $1 in
+	toggle) amixer set Master toggle;;
+	"+") amixer set Master 5%+;;
+	"-") amixer set Master 5%-;;
+	*)   amixer set Master "$1%";;
+esac >/dev/null
+
+
+[ -z $(which notify-send) ] && exit
+# Deal with Freedesktop notification system
+
+# Get current volume (0..100)
+vol=$(amixer sget Master | tail -n1 | sed -n 's|.*\[\([0-9]*\)%.*|\1|p')
+[ -z "$vol" ] && vol='0'
+
+# Get notification ID to replace
+nid='/var/run/notify.id'
+if [ -f "$nid" ]; then
+	old=$(($(date -u +%s) - $(date -ur "$nid" +%s)))
+	# remove if older than 3 seconds
+	[ $old -gt 3 ] && rm "$nid"
+fi
+replace=''
+[ -f "$nid" ] && replace="--replace-id=$(cat "$nid")"
+
+# Define notification icon
+muted=''
+if [ $vol -eq  0 ] || amixer sget Master | tail -n1 | fgrep -q '[off]'; then
+	icon='audio-volume-muted'; muted="(muted)"
+elif [ $vol -le 50 ]; then
+	icon='audio-volume-low';
+elif [ $vol -le 75 ]; then
+	icon='audio-volume-medium';
+else
+	icon='audio-volume-high';
+fi
+
+# Use hints to show gauge in Canonical's notify-osd
+# Use text for other notify implementations
+notify-send \
+	--hint=string:x-canonical-private-synchronous:yes \
+	--hint=int:value:$vol \
+	--icon=$icon \
+	--urgency=low \
+	--expire-time=2000 \
+	$replace \
+	--print-id \
+	"Volume" "$vol% $muted" \
+> "$nid"
