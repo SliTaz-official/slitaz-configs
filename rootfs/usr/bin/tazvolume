@@ -20,7 +20,7 @@ vol=$(amixer sget Master | tail -n1 | sed -n 's|.*\[\([0-9]*\)%.*|\1|p')
 [ -z "$vol" ] && vol='0'
 
 # Get notification ID to replace
-nid='/var/run/notify.id'
+nid='/tmp/notify.id'
 if [ -f "$nid" ]; then
 	old=$(($(date -u +%s) - $(date -ur "$nid" +%s)))
 	# remove if older than 3 seconds
