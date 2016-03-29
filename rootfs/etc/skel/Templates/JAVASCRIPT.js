@@ -1,0 +1,5 @@
+// JavaScript File
+
+function() {
+  ...
+}
