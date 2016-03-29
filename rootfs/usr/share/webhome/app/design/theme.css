@@ -260,7 +260,7 @@ aside.sponsor a:hover {
   opacity:.8;
 }
 
-/* Small Desktop | Slitaz ARM | RPI | Mobile */
+/* Small Desktop | SliTaz ARM | RPI | Mobile */
 
 @media all and (max-width:740px){
   .mobile {

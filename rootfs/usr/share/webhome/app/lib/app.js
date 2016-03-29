@@ -1,4 +1,4 @@
-// Slitaz GNU/Linux : Start Page
+// SliTaz GNU/Linux : Start Page
 
 // Open | Close Object
 function openclose(obj){
