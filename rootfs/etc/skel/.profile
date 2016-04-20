@@ -1,6 +1,7 @@
 # ~/.profile: Executed by Bourne-compatible login SHells.
 #
 
+. /etc/profile
 . /etc/locale.conf
 
 # Path to personal scripts and executables (~/.local/bin).
@@ -9,6 +10,13 @@ if [ -d "$HOME/.local/bin" ] ; then
 	PATH=$HOME/.local/bin:$PATH
 	export PATH
 fi
+
+# fix menu prefix
+export XDG_MENU_PREFIX='lxde-'
+
+export XDG_CACHE_HOME=$HOME/.cache
+export XDG_DATA_HOME=$HOME/.local/share
+export XDG_CONFIG_HOME=$HOME/.config
 
 # Environnement variables and prompt for Ash SHell
 # or Bash. Default is a classic prompt.
