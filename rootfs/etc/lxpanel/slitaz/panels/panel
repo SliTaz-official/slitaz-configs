@@ -116,7 +116,7 @@ Plugin {
     type = netstatus
     Config {
         iface=eth0
-        configtool=tazpanel network
+        configtool=tazpanel user/network
     }
 }
 
