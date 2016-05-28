@@ -3,11 +3,18 @@ audio/ogg=alsaplayer.desktop
 audio/mp3=alsaplayer.desktop
 audio/mpeg=alsaplayer.desktop
 audio/wav=alsaplayer.desktop
+audio/x-wav=alsaplayer.desktop
 
 video/webm=tazbox-video.desktop
 video/ogv=tazbox-video.desktop
 video/mp4=tazbox-video.desktop
+video/mpeg=tazbox-video.desktop
 video/flv=tazbox-video.desktop
+video/x-flv=tazbox-video.desktop
+video/3gpp=tazbox-video.desktop
+video/avi=tazbox-video.desktop
+video/msvideo=tazbox-video.desktop
+video/x-msvideo=tazbox-video.desktop
 
 application/pdf=epdfview.desktop
 application/x-shellscript=beaver.desktop
@@ -17,8 +24,12 @@ application/x-php=beaver.desktop
 application/x-cd-image=isomaster.desktop
 
 text/plain=leafpad.desktop
+text/x-c=leafpad.desktop
+text/x-h=leafpad.desktop
+text/css=leafpad.desktop
 text/html=midori.desktop
 
 image/x-ico=gpicview.desktop
 image/png=gpicview.desktop
 image/jpeg=gpicview.desktop
+image/gif=gpicview.desktop
