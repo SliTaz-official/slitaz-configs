@@ -2,6 +2,12 @@
 audio/ogg=alsaplayer.desktop
 audio/mp3=alsaplayer.desktop
 audio/mpeg=alsaplayer.desktop
+audio/wav=alsaplayer.desktop
+
+video/webm=tazbox-video.desktop
+video/ogv=tazbox-video.desktop
+video/mp4=tazbox-video.desktop
+video/flv=tazbox-video.desktop
 
 application/pdf=epdfview.desktop
 application/x-shellscript=beaver.desktop
