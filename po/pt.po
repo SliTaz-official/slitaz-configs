@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: slitaz-ob-menu 5.1.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-02 16:13+0300\n"
+"POT-Creation-Date: 2016-09-24 14:10+0300\n"
 "PO-Revision-Date: 2014-01-14 21:42+0300\n"
 "Last-Translator: Claudinei Pereira <claudinei@slitaz.org>\n"
 "Language: pt_BR\n"
@@ -16,126 +16,130 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ob-menu/menu.xml.in:22
+#: ob-menu/menu.xml.in:24
 msgid "Favorite Applications"
 msgstr "Aplicativos Favoritos"
 
-#: ob-menu/menu.xml.in:23
+#: ob-menu/menu.xml.in:25
 msgid "File Manager"
 msgstr "Gerenciador de Arquivos"
 
-#: ob-menu/menu.xml.in:26
+#: ob-menu/menu.xml.in:28
 msgid "Terminal"
 msgstr "Terminal"
 
-#: ob-menu/menu.xml.in:29
+#: ob-menu/menu.xml.in:31
 msgid "Web Browser"
 msgstr "Navegador Web"
 
-#: ob-menu/menu.xml.in:32
+#: ob-menu/menu.xml.in:34
 msgid "Text Editor"
 msgstr "Editor de Texto"
 
-#: ob-menu/menu.xml.in:36
+#: ob-menu/menu.xml.in:38
 msgid "Configure favorites"
 msgstr "Configurar favoritos"
 
-#: ob-menu/menu.xml.in:42
+#: ob-menu/menu.xml.in:47
 msgid "Desktop Effects"
 msgstr "Efeitos Visuais"
 
-#: ob-menu/menu.xml.in:43
+#: ob-menu/menu.xml.in:48
+msgid "Desktop Preferences"
+msgstr "Preferências da Área de Trabalho"
+
+#: ob-menu/menu.xml.in:52
 msgid "Activate composite"
 msgstr "Ativar composite"
 
-#: ob-menu/menu.xml.in:46
+#: ob-menu/menu.xml.in:55
 msgid "Activate shadows"
 msgstr "Ativar sombreamento"
 
-#: ob-menu/menu.xml.in:49
+#: ob-menu/menu.xml.in:58
 msgid "Activate shadows/fade"
 msgstr "Ativar sombreamento/fade"
 
-#: ob-menu/menu.xml.in:53
+#: ob-menu/menu.xml.in:62
 msgid "Set opacity (actual)"
 msgstr "Definir opacidade (atual)"
 
-#: ob-menu/menu.xml.in:58
+#: ob-menu/menu.xml.in:67
 msgid "Set opacity (click)"
 msgstr "Definir opacidade (click)"
 
-#: ob-menu/menu.xml.in:64
+#: ob-menu/menu.xml.in:73
 msgid "Stop effects"
 msgstr "Parar efeitos"
 
-#: ob-menu/menu.xml.in:70
+#: ob-menu/menu.xml.in:79
 msgid "SliTaz Live"
 msgstr "SliTaz Live CD/USB"
 
-#: ob-menu/menu.xml.in:71
+#: ob-menu/menu.xml.in:80
 msgid "TazLiTo LiveCD Tool"
 msgstr "Tazlito ferramenta LiveCD"
 
-#: ob-menu/menu.xml.in:74
+#: ob-menu/menu.xml.in:83
 msgid "TazUSB LiveUSB Tool"
 msgstr "TazUSB ferramenta LiveUSB"
 
-#: ob-menu/menu.xml.in:78
+#: ob-menu/menu.xml.in:87
 msgid "TazUSB Writefs (gzip)"
 msgstr "TazUSB Writefs (gzip)"
 
-#: ob-menu/menu.xml.in:83
+#: ob-menu/menu.xml.in:92
 msgid "TazUSB Writefs (lzma)"
 msgstr "TazUSB Writefs (lzma)"
 
-#: ob-menu/menu.xml.in:88
+#: ob-menu/menu.xml.in:97
 msgid "TazUSB Writefs (none)"
 msgstr "TazUSB Writefs (none)"
 
-#: ob-menu/menu.xml.in:96
+#: ob-menu/menu.xml.in:105
 msgid "Openbox"
 msgstr "Openbox"
 
-#: ob-menu/menu.xml.in:97
+#: ob-menu/menu.xml.in:106
 msgid "ObConf"
 msgstr "Configuração do Openbox (GUI)"
 
-#: ob-menu/menu.xml.in:100
+#: ob-menu/menu.xml.in:109
 msgid "Autostart Script"
 msgstr "Aplicações autoiniciadas"
 
-#: ob-menu/menu.xml.in:105
+#: ob-menu/menu.xml.in:122
 msgid "Openbox Menu"
 msgstr "Menu do Openbox"
 
-#: ob-menu/menu.xml.in:111
+#: ob-menu/menu.xml.in:131
 msgid "Reconfigure"
 msgstr "Reconfigurar"
 
-#: ob-menu/menu.xml.in:114
+#: ob-menu/menu.xml.in:134
 msgid "Restart"
 msgstr "Reiniciar"
 
-#: ob-menu/menu.xml.in:119
+#: ob-menu/menu.xml.in:139
 msgid "Openbox 3"
 msgstr "Openbox 3"
 
-#: ob-menu/menu.xml.in:120
+#: ob-menu/menu.xml.in:140
 msgid "SliTaz Openbox"
 msgstr "SliTaz Openbox"
 
-#: ob-menu/menu.xml.in:122
+#: ob-menu/menu.xml.in:142
 msgid "Create a new file or folder"
 msgstr "Criar novo arquivo ou pasta"
 
-#: ob-menu/menu.xml.in:126
+#: ob-menu/menu.xml.in:146
 msgid "Run application"
 msgstr "Executar aplicativo"
 
-#: ob-menu/menu.xml.in:135
+#: ob-menu/menu.xml.in:155
 msgid "Open Folder"
 msgstr "Pastas favoritas"
 
-#: ob-menu/menu.xml.in:145
+#: ob-menu/menu.xml.in:165
 msgid "Logout"
 msgstr "Sair"

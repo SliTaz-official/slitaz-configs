@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: slitaz-ob-menu 5.1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-29 10:21+0000\n"
+"POT-Creation-Date: 2016-09-24 14:16+0300\n"
 "PO-Revision-Date: 2014-07-13 08:38+0800\n"
 "Last-Translator: rhsky <rhsky@qq.com>\n"
 "Language-Team: rhsky <rhsky@qq.com>\n"
@@ -42,102 +42,106 @@ msgstr "文本编辑器"
 msgid "Configure favorites"
 msgstr "配置收藏夹"
 
-#: ob-menu/menu.xml.in:44
+#: ob-menu/menu.xml.in:47
 msgid "Desktop Effects"
 msgstr "桌面效果"
 
-#: ob-menu/menu.xml.in:45
+#: ob-menu/menu.xml.in:48
+msgid "Desktop Preferences"
+msgstr "桌面偏好设置"
+
+#: ob-menu/menu.xml.in:52
 msgid "Activate composite"
 msgstr "激活混合模式"
 
-#: ob-menu/menu.xml.in:48
+#: ob-menu/menu.xml.in:55
 msgid "Activate shadows"
 msgstr "激活阴影效果"
 
-#: ob-menu/menu.xml.in:51
+#: ob-menu/menu.xml.in:58
 msgid "Activate shadows/fade"
 msgstr "激活 阴影/衰减效果"
 
-#: ob-menu/menu.xml.in:55
+#: ob-menu/menu.xml.in:62
 msgid "Set opacity (actual)"
 msgstr "设置不透明度（现实）"
 
-#: ob-menu/menu.xml.in:60
+#: ob-menu/menu.xml.in:67
 msgid "Set opacity (click)"
 msgstr "设置不透明度（单击）"
 
-#: ob-menu/menu.xml.in:66
+#: ob-menu/menu.xml.in:73
 msgid "Stop effects"
 msgstr "停止特效"
 
-#: ob-menu/menu.xml.in:72
+#: ob-menu/menu.xml.in:79
 msgid "SliTaz Live"
 msgstr "SliTaz 即时模式"
 
-#: ob-menu/menu.xml.in:73
+#: ob-menu/menu.xml.in:80
 msgid "TazLiTo LiveCD Tool"
 msgstr "TazLiTo 光盘live 生成工具"
 
-#: ob-menu/menu.xml.in:76
+#: ob-menu/menu.xml.in:83
 msgid "TazUSB LiveUSB Tool"
 msgstr "TazLiTo USBlive 生成工具"
 
-#: ob-menu/menu.xml.in:80
+#: ob-menu/menu.xml.in:87
 msgid "TazUSB Writefs (gzip)"
 msgstr "TazUSB 写入(gzip压缩)"
 
-#: ob-menu/menu.xml.in:85
+#: ob-menu/menu.xml.in:92
 msgid "TazUSB Writefs (lzma)"
 msgstr "TazUSB 写入(lzma压缩)"
 
-#: ob-menu/menu.xml.in:90
+#: ob-menu/menu.xml.in:97
 msgid "TazUSB Writefs (none)"
 msgstr "TazUSB 写入(不压缩)"
 
-#: ob-menu/menu.xml.in:98
+#: ob-menu/menu.xml.in:105
 msgid "Openbox"
 msgstr "Openbox"
 
-#: ob-menu/menu.xml.in:99
+#: ob-menu/menu.xml.in:106
 msgid "ObConf"
 msgstr "OpenBox配置"
 
-#: ob-menu/menu.xml.in:102
+#: ob-menu/menu.xml.in:109
 msgid "Autostart Script"
 msgstr "自动启动脚本"
 
-#: ob-menu/menu.xml.in:107
+#: ob-menu/menu.xml.in:122
 msgid "Openbox Menu"
 msgstr "Openbox 菜单"
 
-#: ob-menu/menu.xml.in:113
+#: ob-menu/menu.xml.in:131
 msgid "Reconfigure"
 msgstr "重置"
 
-#: ob-menu/menu.xml.in:116
+#: ob-menu/menu.xml.in:134
 msgid "Restart"
 msgstr "重启"
 
-#: ob-menu/menu.xml.in:121
+#: ob-menu/menu.xml.in:139
 msgid "Openbox 3"
 msgstr "Openbox 3"
 
-#: ob-menu/menu.xml.in:122
+#: ob-menu/menu.xml.in:140
 msgid "SliTaz Openbox"
 msgstr "SliTaz Openbox"
 
-#: ob-menu/menu.xml.in:124
+#: ob-menu/menu.xml.in:142
 msgid "Create a new file or folder"
 msgstr "创建新的文件或文件夹"
 
-#: ob-menu/menu.xml.in:128
+#: ob-menu/menu.xml.in:146
 msgid "Run application"
 msgstr "运行"
 
-#: ob-menu/menu.xml.in:137
+#: ob-menu/menu.xml.in:155
 msgid "Open Folder"
 msgstr "打开文件夹"
 
-#: ob-menu/menu.xml.in:147
+#: ob-menu/menu.xml.in:165
 msgid "Logout"
 msgstr "登出"

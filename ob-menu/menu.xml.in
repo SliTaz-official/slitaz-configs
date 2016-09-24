@@ -45,6 +45,10 @@ cat << EOT
 
 <!-- Desktop effects -->
 <menu id="desktop-effects" label="$(gettext 'Desktop Effects')">
+  <item label="$(gettext 'Desktop Preferences')">
+    <action name="Execute"><command>pcmanfm --desktop-pref</command></action>
+  </item>
+  <separator />
   <item label="$(gettext 'Activate composite')">
     <action name="Execute"><command>xcompmgr</command></action>
   </item>
