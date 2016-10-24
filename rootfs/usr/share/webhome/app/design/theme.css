@@ -9,11 +9,11 @@ a {
   color:#DB4D23;
 }
 .header {
-  background:url(img/cover.jpg) 50% 30% no-repeat;
+  background:url(img/cover.png) 50% 30% no-repeat;
   background-size:cover;
 }
 .header-bar {
-  color:#FFF;
+  color:#DB4D23;
   margin:0 10px;
 }
 .header-bar:after,.menu-list:after {
@@ -35,7 +35,7 @@ a {
 .header-l p {
   display:table;
   margin:0;
-  border-bottom:4px double #FFF;
+  border-bottom:4px double #000;
 }
 .header-r p {
   text-align:right;
@@ -201,6 +201,9 @@ aside.menu > .body > p.sponsor {
   background:#DB4D23;
   color:#FFF;
   padding:8px;
+}
+.button:focus,.button:hover {
+  background:#B33E1C;
 }
 .closebtn {
   float:right;
