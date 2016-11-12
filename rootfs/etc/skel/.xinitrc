@@ -3,8 +3,7 @@
 # it permanently with your personal applications.conf file.
 #
 . $HOME/.config/slitaz/applications.conf
-dd="$HOME/.local/share/desktop-directories"; mkdir -p "$dd"
-echo -e "[Desktop Entry]\nType=Directory\nName=$(whoami)" > "$dd/user.directory"
+tazbox mkmenu
 
 [ "$1" ] && WINDOW_MANAGER="$1"
 

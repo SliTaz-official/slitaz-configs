@@ -41,3 +41,4 @@ menu:
 clean:
 	rm -rf po/mo
 	rm -f po/*~
+	rm -f po/*.mo

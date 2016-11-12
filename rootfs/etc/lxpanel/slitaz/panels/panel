@@ -131,7 +131,6 @@ Plugin {
     type = batt
     Config {
         HideIfNoBattery=0
-        AlarmCommand=tazbox notify "Warning: battery low" "dialog-warning"
         AlarmTime=5
         BackgroundColor=#404040
         BorderWidth=3
@@ -179,8 +178,19 @@ Plugin {
         image=avatar-default
         tintcolor=#33230D
         item {
-            image=system-shutdown-panel-restart
-            command=logout
+            image=system-log-out-panel
+            name=Close X session
+            action=tazbox logout exit
+        }
+        item {
+            image=system-reboot-panel
+            name=Reboot system
+            action=tazbox logout reboot
+        }
+        item {
+            image=system-shutdown-panel
+            name=Shutdown system
+            action=tazbox logout halt
         }
     }
 }

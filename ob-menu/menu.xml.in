@@ -38,7 +38,7 @@ cat << EOT
   <item label="$(gettext 'Configure favorites')">
     <action name="Execute"><command>tazbox tazapps</command></action>
   </item>
-  <item label="Configure/install favorites (tazx)">
+  <item label="$(gettext 'Configure/install favorites (tazx)')">
     <action name="Execute"><command>terminal -e tazx</command></action>
   </item>
 </menu>

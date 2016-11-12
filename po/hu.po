@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: slitaz-ob-menu 5.1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-24 14:10+0300\n"
+"POT-Creation-Date: 2016-11-12 12:34+0200\n"
 "PO-Revision-Date: 2013-08-01 01:27+0300\n"
 "Last-Translator: Christophe Lincoln <pankso@slitaz.org>\n"
 "Language: hu\n"
@@ -37,6 +37,11 @@ msgstr "Szövegszerkesztõ"
 
 #: ob-menu/menu.xml.in:38
 msgid "Configure favorites"
+msgstr "Configure favorites"
+
+#: ob-menu/menu.xml.in:41
+#, fuzzy
+msgid "Configure/install favorites (tazx)"
 msgstr "Configure favorites"
 
 #: ob-menu/menu.xml.in:47
