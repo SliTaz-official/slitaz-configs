@@ -1,0 +1,7 @@
+This is the preferred place for "bookmarks", even if the GTK+3 is not installed.
+
+PCManFM use it, if it finds, and then ceases to use the old, located in
+~/.gtk-bookmarks
+
+Here we made a symbolic link to the old file, since it is possible there are
+other (old) programs, which need the old file.
