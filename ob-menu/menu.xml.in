@@ -4,13 +4,15 @@ case $1 in
 	en) L=C ;;
 	fr) L=fr_FR ;;
 	hu) L=hu_HU ;;
-	pt_BR) L=pt_BR ;;
+	ja) L=ja_JP ;;
+	pt|pt_BR) L=pt_BR ;;
 	ru) L=ru_RU ;;
+	zh_CN) L=zh_CN ;;
 esac
 
 if [ $L != C ]; then
-	mkdir -p /usr/lib/locale
-	localedef -i $L -c -f UTF-8 /usr/lib/locale/$L
+	mkdir -p /usr/lib/locale/$L.UTF-8
+	localedef -i $L -c -f UTF-8 /usr/lib/locale/$L.UTF-8
 fi
 
 export LANG=$L LC_ALL=$L TEXTDOMAINDIR=$2 TEXTDOMAIN=slitaz-ob-menu
@@ -169,5 +171,3 @@ cat << EOT
 
 </openbox_menu>
 EOT
-
-rm -rf /usr/lib/locale/$L
