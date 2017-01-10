@@ -1,0 +1,151 @@
+# Japanese translations for the slitaz-configs package.
+# Copyright (C) 2017 SliTaz
+# This file is distributed under the same license as the slitaz-configs package.
+# BALLOON a.k.a. Fu-sen. (Keiichi SHIGA) <balloonakafusen AT gmail DOT com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: slitaz-ob-menu 5.1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-02 18:39+0900\n"
+"PO-Revision-Date: 2017-01-05 22:44+0900\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Last-Translator: BALLOON a.k.a. Fu-sen. (Keiichi SHIGA) <balloonakafusen　AT gmail DOT com>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja_JP\n"
+
+#: ob-menu/menu.xml.in:24
+msgid "Favorite Applications"
+msgstr "お気に入りのアプリケーション"
+
+#: ob-menu/menu.xml.in:25
+msgid "File Manager"
+msgstr "ファイルマネージャー"
+
+#: ob-menu/menu.xml.in:28
+msgid "Terminal"
+msgstr "ターミナル"
+
+#: ob-menu/menu.xml.in:31
+msgid "Web Browser"
+msgstr "ウェブブラウザ"
+
+#: ob-menu/menu.xml.in:34
+msgid "Text Editor"
+msgstr "テキストエディタ"
+
+#: ob-menu/menu.xml.in:38
+msgid "Configure favorites"
+msgstr "お気に入りの設定"
+
+#: ob-menu/menu.xml.in:41
+msgid "Configure/install favorites (tazx)"
+msgstr "お気に入りの設定・インストール (tazx)"
+
+#: ob-menu/menu.xml.in:47
+msgid "Desktop Effects"
+msgstr "デスクトップの効果"
+
+#: ob-menu/menu.xml.in:48
+msgid "Desktop Preferences"
+msgstr "デスクトップの設定"
+
+#: ob-menu/menu.xml.in:52
+msgid "Activate composite"
+msgstr "コンポジットを有効にする"
+
+#: ob-menu/menu.xml.in:55
+msgid "Activate shadows"
+msgstr "影を有効にする"
+
+#: ob-menu/menu.xml.in:58
+msgid "Activate shadows/fade"
+msgstr "影・フェードを有効にする"
+
+#: ob-menu/menu.xml.in:62
+msgid "Set opacity (actual)"
+msgstr "透明度の設定 (現行)"
+
+#: ob-menu/menu.xml.in:67
+msgid "Set opacity (click)"
+msgstr "透明度の設定 (クリック)"
+
+#: ob-menu/menu.xml.in:73
+msgid "Stop effects"
+msgstr "効果を停止"
+
+#: ob-menu/menu.xml.in:79
+msgid "SliTaz Live"
+msgstr "SliTaz Live"
+
+#: ob-menu/menu.xml.in:80
+msgid "TazLiTo LiveCD Tool"
+msgstr "TazLiTo LiveCD ツール"
+
+#: ob-menu/menu.xml.in:83
+msgid "TazUSB LiveUSB Tool"
+msgstr "TazUSB LiveUSB ツール"
+
+#: ob-menu/menu.xml.in:87
+msgid "TazUSB Writefs (gzip)"
+msgstr "TazUSB LiveUSB Tool"
+
+#: ob-menu/menu.xml.in:92
+msgid "TazUSB Writefs (lzma)"
+msgstr "TazUSB Writefs (lzma)"
+
+#: ob-menu/menu.xml.in:97
+msgid "TazUSB Writefs (none)"
+msgstr "TazUSB Writefs (なし)"
+
+#: ob-menu/menu.xml.in:105
+msgid "Openbox"
+msgstr "Openbox"
+
+#: ob-menu/menu.xml.in:106
+msgid "ObConf"
+msgstr "ObConf"
+
+#: ob-menu/menu.xml.in:109
+msgid "Autostart Script"
+msgstr "自動実行スクリプト"
+
+#: ob-menu/menu.xml.in:122
+msgid "Openbox Menu"
+msgstr "Openbox メニュー"
+
+#: ob-menu/menu.xml.in:131
+msgid "Reconfigure"
+msgstr "再構築"
+
+#: ob-menu/menu.xml.in:134
+msgid "Restart"
+msgstr "再起動"
+
+#: ob-menu/menu.xml.in:139
+msgid "Openbox 3"
+msgstr "Openbox 3"
+
+#: ob-menu/menu.xml.in:140
+msgid "SliTaz Openbox"
+msgstr "SliTaz Openbox"
+
+#: ob-menu/menu.xml.in:142
+msgid "Create a new file or folder"
+msgstr "新しいファイルかフォルダを生成"
+
+#: ob-menu/menu.xml.in:146
+msgid "Run application"
+msgstr "アプリケーションを実行"
+
+#: ob-menu/menu.xml.in:155
+msgid "Open Folder"
+msgstr "フォルダを開く"
+
+#: ob-menu/menu.xml.in:165
+msgid "Logout"
+msgstr "ログアウト"
