@@ -1,0 +1,158 @@
+# German translations for slitaz-ob-menu package.
+# Copyright (C) 2017 SliTaz
+# This file is distributed under the same license as the slitaz-ob-menu package.
+# Hans-Günter Theisgen, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: slitaz-ob-menu 5.1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-12 12:34+0200\n"
+"PO-Revision-Date: 2017-02-16 16:53+0100\n"
+"Last-Translator: Hans-Günter Theisgen\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ob-menu/menu.xml.in:24
+msgid "Favorite Applications"
+msgstr "Bevorzugte Anwendungen"
+
+#: ob-menu/menu.xml.in:25
+msgid "File Manager"
+msgstr "Dateiverwaltung"
+
+#: ob-menu/menu.xml.in:28
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ob-menu/menu.xml.in:31
+msgid "Web Browser"
+msgstr "Webbrowser"
+
+#: ob-menu/menu.xml.in:34
+msgid "Text Editor"
+msgstr "Texteditor"
+
+#: ob-menu/menu.xml.in:38
+msgid "Configure favorites"
+msgstr "Favoriten konfigurieren"
+
+#, fuzzy
+#: ob-menu/menu.xml.in:41
+msgid "Configure/install favorites (tazx)"
+msgstr ""
+
+#: ob-menu/menu.xml.in:47
+msgid "Desktop Effects"
+msgstr "Effekte der Benutzeroberfläche"
+
+#: ob-menu/menu.xml.in:48
+msgid "Desktop Preferences"
+msgstr "Einstellungen der Benutzeroberfläche"
+
+#: ob-menu/menu.xml.in:52
+msgid "Activate composite"
+msgstr "Zeichenzusammensetzung aktivieren"
+
+#: ob-menu/menu.xml.in:55
+msgid "Activate shadows"
+msgstr "Schattierung aktivieren"
+
+#, fuzzy
+#: ob-menu/menu.xml.in:58
+msgid "Activate shadows/fade"
+msgstr ""
+
+#: ob-menu/menu.xml.in:62
+msgid "Set opacity (actual)"
+msgstr "Deckkraft einstellen (aktuell)"
+
+#, fuzzy
+#: ob-menu/menu.xml.in:67
+msgid "Set opacity (click)"
+msgstr ""
+
+#: ob-menu/menu.xml.in:73
+msgid "Stop effects"
+msgstr "Effekte deaktivieren"
+
+#: ob-menu/menu.xml.in:79
+msgid "SliTaz Live"
+msgstr "SliTaz-Direktstart"
+
+#: ob-menu/menu.xml.in:80
+msgid "TazLiTo LiveCD Tool"
+msgstr "TazLiTo Direkstart-Systeme bearbeiten"
+
+#: ob-menu/menu.xml.in:83
+msgid "TazUSB LiveUSB Tool"
+msgstr "TazUSB Direkstart-Systeme bearbeiten"
+
+#, fuzzy
+#: ob-menu/menu.xml.in:87
+msgid "TazUSB Writefs (gzip)"
+msgstr ""
+
+#, fuzzy
+#: ob-menu/menu.xml.in:92
+msgid "TazUSB Writefs (lzma)"
+msgstr ""
+
+#, fuzzy
+#: ob-menu/menu.xml.in:97
+msgid "TazUSB Writefs (none)"
+msgstr ""
+
+#: ob-menu/menu.xml.in:105
+msgid "Openbox"
+msgstr "Openbox"
+
+#, fuzzy
+#: ob-menu/menu.xml.in:106
+msgid "ObConf"
+msgstr ""
+
+#, fuzzy
+#: ob-menu/menu.xml.in:109
+msgid "Autostart Script"
+msgstr ""
+
+#: ob-menu/menu.xml.in:122
+msgid "Openbox Menu"
+msgstr "Openbox-Menü"
+
+#: ob-menu/menu.xml.in:131
+msgid "Reconfigure"
+msgstr "Rekonfigurieren"
+
+#: ob-menu/menu.xml.in:134
+msgid "Restart"
+msgstr "Neu starten"
+
+#: ob-menu/menu.xml.in:139
+msgid "Openbox 3"
+msgstr "Openbox 3"
+
+#: ob-menu/menu.xml.in:140
+msgid "SliTaz Openbox"
+msgstr "SliTaz Openbox"
+
+#: ob-menu/menu.xml.in:142
+msgid "Create a new file or folder"
+msgstr "Neue Datei oder Verzeichnis erzeugen"
+
+#: ob-menu/menu.xml.in:146
+msgid "Run application"
+msgstr "Anwendung starten"
+
+#: ob-menu/menu.xml.in:155
+msgid "Open Folder"
+msgstr "Ordner öffnen"
+
+#: ob-menu/menu.xml.in:165
+msgid "Logout"
+msgstr "Abmelden"
