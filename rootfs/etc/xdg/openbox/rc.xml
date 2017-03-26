@@ -50,6 +50,7 @@
   -->
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
+    <cornerRadius>4</cornerRadius>
     <font place="ActiveWindow">
       <name>Sans</name>
       <size>8</size>

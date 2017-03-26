@@ -7,7 +7,7 @@ style "clearlooks-default"
 	GtkRange       ::stepper_size      = 15
 	GtkScrollbar   ::min_slider_length = 30
 	GtkCheckButton ::indicator_size    = 12
-	GtkMenuBar     ::internal-padding  = 4
+	GtkMenuBar     ::internal-padding  = 3
 	GtkTreeView    ::expander_size     = 14
 	GtkTreeView    ::odd_row_color     = "#f1f1f1"
 	GtkExpander    ::expander_size     = 16
@@ -16,37 +16,37 @@ style "clearlooks-default"
 	GtkMenuBar     ::shadow-type       = GTK_SHADOW_NONE
 	GtkFrame       ::shadow_type       = GTK_SHADOW_NONE
 	
-	GtkNotebook    ::show-bodrer       = 1
+	#GtkNotebook    ::show-bodrer       = 1
 	
 	GtkScrollbar   ::has_secondary_backward_stepper = 1
 	GtkScrollbar   ::has_secondary_forward_stepper 	= 0
 	
-	xthickness = 1
-	ythickness = 1
+	xthickness = 0
+	ythickness = 0
 	
 	fg[NORMAL]			= "#111111" # very dark grey
 	fg[PRELIGHT]		= "#000000" # black
 	fg[SELECTED]		= "#ffffff" # white 
 	fg[ACTIVE]			= "#333333" # very dark grey
-	fg[INSENSITIVE]		= "#666666" # medium grey
+	fg[INSENSITIVE]		= "#444444" # medium grey
 	
 	bg[NORMAL]			= "#ededed" # light grey
 	bg[PRELIGHT]		= "#ffffff" # white
-	bg[SELECTED]		= "#fcaf3e" # orange
-	bg[INSENSITIVE]		= "#ededed" # light grey
-	bg[ACTIVE]			= "#ededed" # light grey
+	bg[SELECTED]		= "#d66018" # orange
+	bg[INSENSITIVE]		= "#ededed" # very light grey
+	bg[ACTIVE]			= "#d9d4ce" # light grey
 	
 	base[NORMAL]		= "#ffffff" # white
-	base[PRELIGHT]		= "#fcaf3e" # orange
-	base[ACTIVE]		= "#ededed" # light beige
-	base[SELECTED]		= "#fcaf3e" # orange
-	base[INSENSITIVE]	= "#ededed" # light grey
+	base[PRELIGHT]		= "#d66018" # orange
+	base[ACTIVE]		= "#dadada" # light beige
+	base[SELECTED]		= "#d66018" # orange
+	base[INSENSITIVE]	= "#ededed" # dark grey orange
 	
 	text[NORMAL]      	= "#000000" # black
 	text[PRELIGHT]    	= "#000000" # black
 	text[ACTIVE]      	= "#ffffff" # white
 	text[SELECTED]    	= "#ffffff" # white
-	text[INSENSITIVE] 	= "#ededed" # light grey
+	text[INSENSITIVE] 	= "#dadada" # light grey
 	
 	engine "clearlooks" 
 	{
@@ -66,19 +66,15 @@ style "clearlooks-wide" = "clearlooks-default"
 
 style "clearlooks-button" = "clearlooks-default"
 {
-	bg[NORMAL]	 = "#f1f1f1"
 	bg[PRELIGHT] = "#ffffff"
-	xthickness = 1
+	xthickness = 2
 	ythickness = 1
 }
 
 style "clearlooks-notebook" = "clearlooks-wide"
 {
-	bg[NORMAL] = "#f1f1f1"
-	bg[ACTIVE]	= "#ededed"
+	bg[NORMAL] = "#ededed"
 	bg[INSENSITIVE] = "#ededed"
-	xthickness = 3 # Width of tabs and notebook borders.
-	ythickness = 3 # Height of tabs and notebook borders.
 }
 
 style "clearlooks-tasklist" = "clearlooks-default"
