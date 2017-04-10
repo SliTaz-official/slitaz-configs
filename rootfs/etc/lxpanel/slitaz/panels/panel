@@ -91,6 +91,21 @@ Plugin {
 }
 
 Plugin {
+    type = xkb
+    Config {
+        DisplayType=1
+        PerWinLayout=0
+        NoResetOpt=0
+        KeepSysLayouts=1
+        Model=pc105
+        LayoutsList=us
+        VariantsList=,
+        ToggleOpt=shift_caps_toggle
+        FlagSize=4
+    }
+}
+
+Plugin {
     type = tray
 }
 
