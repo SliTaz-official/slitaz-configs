@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- 
+  # SliTaz GNU/Linux : Start Page
+  # -----------------------------
+  # @language   : German
+  # @translator : Hans-Günter Theisgen
+  # @contact    : work mail
+unvollständig, möglicherweise nicht richtig übersetzt, nicht freigegeben(nur auf ZBOXslitaz)
+ -->
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SliTaz GNU/Linux : Eingangsseite</title>
+	<link rel="shortcut icon" href="app/img/favicon.ico">
+	<link rel="stylesheet" href="app/design/default.css">
+	<link rel="stylesheet" href="app/design/theme.css">
+</head>
+<body>
+<style>
+<!-- hat nicht den gewünschten Effekt -->
+ font-size: 200% !important;
+</style>
+<!-- (+) page -->
+<header class="header">
+  
+  <div class="header-bar">
+    <div class="header-l"><p>Willkommen</p></div>
+    <div class="header-r"><p><a href="#" onclick="openclose('menu');">m</a></p></div>
+  </div><!-- header-bar -->
+  
+  <div class="header-title">
+    <img src="app/img/slitaz.png" alt="SliTaz" />
+  </div><!-- header-title -->
+
+  <p class="banner">Entdecken Sie die Welt mit SliTaz! <span class="mobile">| Hilfe finden Sie in der <a href="http://www.slitaz.org/de/doc/">Dokumentation</a>.</span></p>
+
+</header><!-- header -->
+
+<article>
+  
+  <form class="search" method="get" action="https://duckduckgo.com/">
+    <input class="search-box" type="text" value="" placeholder="Wollen Sie Neues entdecken?" name="q" size="24" maxlength="255" />
+    <input type="hidden" name="t" value="slitaz" />
+  </form>
+  
+</article>
+
+<footer class="footer">
+  <p><a class="border" href="#" onclick="openclose('sponsor');">SliTaz unterstützen</a> | <a href="#" onclick="openclose('social');">Weitere Informationen?</a></p>
+  <p class="rights">COPYRIGHT &copy; SLITAZ GNU/LINUX — BSD LIZENZ.</p>
+</footer>
+<!-- (-) page -->
+
+<!-- (+) menu -->
+<aside id="menu" class="menu" style="display:none">
+  <div class="body"><a class="closebtn" href="#" onclick="openclose('menu');">Close</a>
+    <h1>SliTaz <small>Betriebssystem</small></h1>
+    <p class="sponsor">Das Projekt SliTaz bietet seinen Nutzern kostenlose technische Unterstützung in der <a href="http://www.slitaz.org/de/mailing-list.php">Diskussionsrunde</a>
+ (i18n-Gruppe) und dem <a href="http://forum.slitaz.org/">Forum</a>. Auch für weitere Informationen, Vorschläge oder Kommentare können Sie die Diskussionsrunde nutzen oder direkt
+eine Nachricht senden an:
+<code data-mail="ASCII">&#100;&#101;&#118;&#101;&#108;&#064;&#115;&#108;&#105;&#116;&#097;&#122;&#046;&#111;&#114;&#103;</code></p>
+    
+    <div class="menu-list">
+      <div class="menu-l">
+        <p class="menu-title"><a href="http://www.slitaz.org/">SliTaz-Internetauftritt</a> <br /><small>Die offizielle Internetpräsenz.</small></p>
+        <ul class="menu-items">
+          <li><a href="http://scn.slitaz.org/?blog">SliTaz Blog <br /><br /><small>Ankündigungen, Neuigkeiten und wichtige Aktualisierungen.</small></a></li>
+          <li><a href="http://doc.slitaz.org/">Dokumentation <br /><br /><small>Wichtige Informationen zum Konfigurieren von SliTaz.</small></a></li>
+          <li><a href="http://forum.slitaz.org/">Forum der Nutzergemeinschaft<br /><br /><small>Fragen und Antworten der Nutzergemeinschaft.</small></a></li>
+          <li><a href="https://slitaz.spreadshirt.net/">SliTaz-Laden<br /><br /><small>Laden mit T-Shirts und anderem Zubehör.</small></a></li>
+          <li><a href="http://irc.slitaz.org/">SliTaz IRC <br /><br /><small>Willkommen in der Unterstützungs-Gesprächsrunde.</small></a></li>
+          <li><a href="http://bugs.slitaz.org/">Fehlermeldungen<br /><br /><small>Sie haben einen Fehler gefunden? Melden Sie ihn.</small></a></li>
+        </ul>
+      </div>
+      <div class="menu-r">
+        <p class="menu-title"><a href="http://doc.slitaz.org/de:cookbook:slitaztools">SliTaz-Werkzeuge</a> <br /><small>Mächtige Funktionen und zusätzliche Werkzeuge.</small></p>
+        <ul class="menu-items">
+          <li><a href="http://pkgs.slitaz.org/">Paketdepots <br /><br /><small>Nach Paketen, Rezepten, Abhängigkeiten und anderem suchen.</small></a></li>
+          <li><a href="http://arm.slitaz.org/">ARM &amp; Raspberry Pi <br /><br /><small>Portierung von SliTaz GNU/Linux auf die ARM-Architektur.</small></a></li>
+          <li><a href="http://pizza.slitaz.org/">Pizza <br /><br /><small>Eine individuell angepasste SliTaz-Variante erstellen.</small></a></li>
+          <li><a href="http://boot.slitaz.org/">Laden über Netzwerk<br /><br /><small>Laden eines vollständigen Betriebssystems über das Netzwerk.</small></a></li>
+          <li><a href="http://paste.slitaz.org/">Paste <br /><br /><small>Hier kann Text oder Programmcode für andere zur Verfügung gestellt werden.</small></a></li>
+          <li><a href="http://people.slitaz.org/">Mitwirkende <br /><br /><small>Die Mitwirkenden an SliTaz finden Sie hier.</small></a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="advanced-features">
+      <h2>Erweiterte Funktionen</h2>
+      <a role="button" class="button" href="http://cook.slitaz.org/">Kompilierungsautomat</a>
+      <a role="button" class="button" href="http://tank.slitaz.org/">Entwicklungsrechner</a>
+      <a role="button" class="button" href="http://hg.slitaz.org/?sort=lastchange">Mercurial-Depots</a>
+      <a role="button" class="button" href="http://roadmap.slitaz.org/">Planungen</a>
+      <a role="button" class="button" href="http://tiny.slitaz.org/">Tiny</a>
+      <a role="button" class="button" href="http://mirror1.slitaz.org/">Depot</a>
+      <a role="button" class="button" href="http://pizza.slitaz.me/">Direktstart-ISO-Abbild erstellen</a>
+    </div>
+    
+  </div>
+</aside>
+<!-- (-) menu -->
+
+<!-- (+) sponsor -->
+<aside id="sponsor" class="sponsor" style="display:none">
+  <div class="body">
+    <h2>Guten Tag ;)</h2>
+    <blockquote>
+      <p>Unterstützen Sie uns &hearts;</p>
+      <p>Wenn Sie ein offizieller Förderer werden wollen, können Sie uns mit einer monatlichen Spende, etwas Hardware oder Rechenkapazität unterstützen.</p>
+    </blockquote>
+    
+    <a href="http://www.slitaz.org/de/sponsor/">Weitere Informationen</a> <a href="#" onclick="openclose('sponsor');">Close</a>
+    
+  </div>
+</aside>
+<!-- (-) sponsor -->
+
+<!-- (+) social -->
+<aside id="social" class="social" style="display:none">
+  <div class="body"><a class="closebtn" href="#" onclick="openclose('social');">Close</a>
+    <h2>Soziale Netzwerke</h2>
+    <ul class="menu-items">
+      <li><a href="https://twitter.com/slitaz">Twitter</a></li>
+      <li><a href="https://facebook.com/slitaz">Facebook</a></li>
+    </ul>
+    <h2>Referenzen im Internet</h2>
+    <ul class="menu-items">
+      <li><a href="http://distrowatch.com/table.php?distribution=slitaz">Distrowatch</a></li>
+      <li><a href="https://de.wikipedia.org/wiki/SliTaz_GNU/Linux">Wikipedia</a></li>
+      <li><a href="https://flattr.com/profile/slitaz">Flattr</a></li>
+    </ul>
+  </div>
+  
+  <p>
+    <blockquote class="sharelove">
+      Sprechen Sie auch mit Ihren Freunden über SliTaz. Verbreiten Sie SliTaz in sozialen Netzwerken und verfolgen Sie unsere Tätigkeit bei Twitter oder Facebook. Danke, dass Sie <a href="http://www.slitaz.org">SliTaz GNU/Linux</a> einsetzen.
+    </blockquote>
+  </p>
+  
+</aside>
+<!-- (-) social -->
+
+
+
+<!-- (+) script -->
+<script src="app/lib/app.js"></script>
+<!-- (-) script -->
+
+</body>
+</html>
