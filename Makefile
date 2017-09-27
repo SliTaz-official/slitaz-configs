@@ -28,13 +28,13 @@ msgmerge:
 menu:
 	@for l in $(LINGUAS); do \
 		echo "Formatting $$l messages..."; \
-		mkdir -p po/mo/$$l/LC_MESSAGES; \
-		msgfmt -o po/mo/$$l/LC_MESSAGES/$(DOMAIN).mo po/$$l.po; \
+		mkdir -p  /usr/share/locale/$$l/LC_MESSAGES; \
+		msgfmt -o /usr/share/locale/$$l/LC_MESSAGES/$(DOMAIN).mo po/$$l.po; \
 	done; \
 	mkdir -p $(DESTDIR)/etc/xdg/openbox; \
 	for l in en $(LINGUAS); do \
 		echo "Processing $$l menu..."; \
-		./ob-menu/menu.xml.in $$l `pwd`/po/mo > \
+		./ob-menu/menu.xml.in $$l > \
 		$(DESTDIR)/etc/xdg/openbox/menu.$$l.xml; \
 	done;
 

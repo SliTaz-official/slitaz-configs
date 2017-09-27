@@ -1,25 +1,23 @@
 # don't forget to add "locale-**" as BUILD_DEPENDS to slitaz-configs receipt
 # in case of adding new menu languages
 case $1 in
-	en) L=C ;;
-	fr) L=fr_FR ;;
-	hu) L=hu_HU ;;
-	ja) L=ja_JP ;;
-	pt|pt_BR) L=pt_BR ;;
-	ru) L=ru_RU ;;
-	zh_CN) L=zh_CN ;;
+	de) L='de_DE';;
+	en) L='en_US';;
+	fr) L='fr_FR';;
+	hu) L='hu_HU';;
+	ja) L='ja_JP';;
+	pt|pt_BR) L='pt_BR';;
+	ru) L='ru_RU';;
+	zh_CN) L='zh_CN';;
 esac
 
-if [ $L != C ]; then
-	mkdir -p /usr/lib/locale/$L.UTF-8
-	localedef -i $L -c -f UTF-8 /usr/lib/locale/$L.UTF-8
-fi
+mkdir -p "/usr/lib/locale/$L.UTF-8"
+localedef -i "$L" -c -f 'UTF-8' "/usr/lib/locale/$L.UTF-8"
 
-export LANG=$L LC_ALL=$L TEXTDOMAINDIR=$2 TEXTDOMAIN=slitaz-ob-menu
+export LC_ALL="$L.UTF-8" TEXTDOMAIN='slitaz-ob-menu'
 
-cat << EOT
+cat <<EOT
 <?xml version="1.0" encoding="UTF-8"?>
-
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
 <!-- Favorite applications -->
