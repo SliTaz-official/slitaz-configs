@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: slitaz-ob-menu 5.1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-12 12:34+0200\n"
-"PO-Revision-Date: 2017-02-16 16:53+0100\n"
+"PO-Revision-Date: 2017-10-09 15:23+0100\n"
 "Last-Translator: Hans-Günter Theisgen\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -39,12 +39,11 @@ msgstr "Texteditor"
 
 #: ob-menu/menu.xml.in:38
 msgid "Configure favorites"
-msgstr "Favoriten konfigurieren"
+msgstr "Bevorzugte Anwendungen konfigurieren"
 
-#, fuzzy
 #: ob-menu/menu.xml.in:41
 msgid "Configure/install favorites (tazx)"
-msgstr ""
+msgstr "Bevorzugte Anwendungen mit tazx installieren oder konfigurieren"
 
 #: ob-menu/menu.xml.in:47
 msgid "Desktop Effects"
@@ -62,19 +61,17 @@ msgstr "Zeichenzusammensetzung aktivieren"
 msgid "Activate shadows"
 msgstr "Schattierung aktivieren"
 
-#, fuzzy
 #: ob-menu/menu.xml.in:58
 msgid "Activate shadows/fade"
-msgstr ""
+msgstr "Schattierung und Überblendung aktivieren"
 
 #: ob-menu/menu.xml.in:62
 msgid "Set opacity (actual)"
-msgstr "Deckkraft einstellen (aktuell)"
+msgstr "Transparenz einstellen (aktuell)"
 
-#, fuzzy
 #: ob-menu/menu.xml.in:67
 msgid "Set opacity (click)"
-msgstr ""
+msgstr "Transparenz einstellen (klick)"
 
 #: ob-menu/menu.xml.in:73
 msgid "Stop effects"
@@ -92,34 +89,29 @@ msgstr "TazLiTo Direkstart-Systeme bearbeiten"
 msgid "TazUSB LiveUSB Tool"
 msgstr "TazUSB Direkstart-Systeme bearbeiten"
 
-#, fuzzy
 #: ob-menu/menu.xml.in:87
 msgid "TazUSB Writefs (gzip)"
-msgstr ""
+msgstr "TazUSB mit gzip komprimiertes Dateisystem schreiben"
 
-#, fuzzy
 #: ob-menu/menu.xml.in:92
 msgid "TazUSB Writefs (lzma)"
-msgstr ""
+msgstr "TazUSB mit lzma komprimiertes Dateisystem schreiben"
 
-#, fuzzy
 #: ob-menu/menu.xml.in:97
 msgid "TazUSB Writefs (none)"
-msgstr ""
+msgstr "TazUSB unkomprimiertes Dateisystem schreiben"
 
 #: ob-menu/menu.xml.in:105
 msgid "Openbox"
 msgstr "Openbox"
 
-#, fuzzy
 #: ob-menu/menu.xml.in:106
 msgid "ObConf"
-msgstr ""
+msgstr "ObConf"
 
-#, fuzzy
 #: ob-menu/menu.xml.in:109
 msgid "Autostart Script"
-msgstr ""
+msgstr "Startprozedur"
 
 #: ob-menu/menu.xml.in:122
 msgid "Openbox Menu"
