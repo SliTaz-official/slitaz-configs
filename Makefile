@@ -4,7 +4,7 @@ PREFIX?=/usr
 DESTDIR?=
 DOMAIN=slitaz-ob-menu
 MENU?=ob-menu/menu.xml.in
-LINGUAS?=de fr hu ja pt ru zh_CN
+LINGUAS?=de fr it hu ja pt ru zh_CN
 
 BINDIR=$(DESTDIR)$(PREFIX)/bin
 STSDATA=$(DESTDIR)$(PREFIX)/share/slitaz/sts
