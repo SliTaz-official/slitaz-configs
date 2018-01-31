@@ -1,152 +1,152 @@
 # Italian translations for slitaz-ob-menu package.
 # Copyright (C) 2018 SliTaz
 # This file is distributed under the same license as the slitaz-ob-menu package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Christian Michelini <christian@alklibri.com>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: slitaz-ob-menu 5.1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-30 12:40+0200\n"
-"PO-Revision-Date: 2018-01-30 12:39+0200\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2018-01-31 02:32+0100\n"
+"Last-Translator: Christian Michelini <christian@alklibri.com>\n"
 "Language-Team: \n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.6\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: ob-menu/menu.xml.in:24
 msgid "Favorite Applications"
-msgstr ""
+msgstr "Applicazioni preferite"
 
 #: ob-menu/menu.xml.in:25
 msgid "File Manager"
-msgstr ""
+msgstr "Gestore file"
 
 #: ob-menu/menu.xml.in:28
 msgid "Terminal"
-msgstr ""
+msgstr "Terminale"
 
 #: ob-menu/menu.xml.in:31
 msgid "Web Browser"
-msgstr ""
+msgstr "Navigatore Web"
 
 #: ob-menu/menu.xml.in:34
 msgid "Text Editor"
-msgstr ""
+msgstr "Elaboratore di testi"
 
 #: ob-menu/menu.xml.in:38
 msgid "Configure favorites"
-msgstr ""
+msgstr "Configura i preferiti"
 
 #: ob-menu/menu.xml.in:41
 msgid "Configure/install favorites (tazx)"
-msgstr ""
+msgstr "Configura/installa i preferiti (tazx)"
 
 #: ob-menu/menu.xml.in:47
 msgid "Desktop Effects"
-msgstr ""
+msgstr "Effetti della scrivania"
 
 #: ob-menu/menu.xml.in:48
 msgid "Desktop Preferences"
-msgstr ""
+msgstr "Impostazioni della scrivania"
 
 #: ob-menu/menu.xml.in:52
 msgid "Activate composite"
-msgstr ""
+msgstr "Attiva gestore composito delle finestre"
 
 #: ob-menu/menu.xml.in:55
 msgid "Activate shadows"
-msgstr ""
+msgstr "Attiva ombreggiature"
 
 #: ob-menu/menu.xml.in:58
 msgid "Activate shadows/fade"
-msgstr ""
+msgstr "Attiva ombreggiature/dissolvenza"
 
 #: ob-menu/menu.xml.in:62
 msgid "Set opacity (actual)"
-msgstr ""
+msgstr "Imposta opacità (attuale)"
 
 #: ob-menu/menu.xml.in:67
 msgid "Set opacity (click)"
-msgstr ""
+msgstr "Imposta opacità (clic)"
 
 #: ob-menu/menu.xml.in:73
 msgid "Stop effects"
-msgstr ""
+msgstr "Ferma gli effetti"
 
 #: ob-menu/menu.xml.in:79
 msgid "SliTaz Live"
-msgstr ""
+msgstr "SliTaz Live"
 
 #: ob-menu/menu.xml.in:80
 msgid "TazLiTo LiveCD Tool"
-msgstr ""
+msgstr "Strumento TazLiTo per LiveCD"
 
 #: ob-menu/menu.xml.in:83
 msgid "TazUSB LiveUSB Tool"
-msgstr ""
+msgstr "trumento TazUSB per LiveUSB"
 
 #: ob-menu/menu.xml.in:87
 msgid "TazUSB Writefs (gzip)"
-msgstr ""
+msgstr "TazUSB Writefs (gzip)"
 
 #: ob-menu/menu.xml.in:92
 msgid "TazUSB Writefs (lzma)"
-msgstr ""
+msgstr "TazUSB Writefs (lzma)"
 
 #: ob-menu/menu.xml.in:97
 msgid "TazUSB Writefs (none)"
-msgstr ""
+msgstr "TazUSB Writefs (none)"
 
 #: ob-menu/menu.xml.in:105
 msgid "Openbox"
-msgstr ""
+msgstr "Openbox"
 
 #: ob-menu/menu.xml.in:106
 msgid "ObConf"
-msgstr ""
+msgstr "ObConf"
 
 #: ob-menu/menu.xml.in:109
 msgid "Autostart Script"
-msgstr ""
+msgstr "Avvio automatico dello script"
 
 #: ob-menu/menu.xml.in:122
 msgid "Openbox Menu"
-msgstr ""
+msgstr "Menu di Openbox"
 
 #: ob-menu/menu.xml.in:131
 msgid "Reconfigure"
-msgstr ""
+msgstr "Riconfigura"
 
 #: ob-menu/menu.xml.in:134
 msgid "Restart"
-msgstr ""
+msgstr "Riavvia"
 
 #: ob-menu/menu.xml.in:139
 msgid "Openbox 3"
-msgstr ""
+msgstr "Openbox 3"
 
 #: ob-menu/menu.xml.in:140
 msgid "SliTaz Openbox"
-msgstr ""
+msgstr "SliTaz Openbox"
 
 #: ob-menu/menu.xml.in:142
 msgid "Create a new file or folder"
-msgstr ""
+msgstr "Crea un nuovo file o cartella"
 
 #: ob-menu/menu.xml.in:146
 msgid "Run application"
-msgstr ""
+msgstr "Esegui applicazione"
 
 #: ob-menu/menu.xml.in:155
 msgid "Open Folder"
-msgstr ""
+msgstr "Apri cartella"
 
 #: ob-menu/menu.xml.in:165
 msgid "Logout"
-msgstr ""
+msgstr "Disconnessione"
