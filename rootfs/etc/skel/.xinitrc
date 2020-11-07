@@ -9,7 +9,7 @@ tazbox mkmenu
 
 EXEC="exec dbus-launch --sh-syntax --exit-with-session"
 
-LOG="/dev/null" ; X=$LOG ; ERR=$X
+LOG="/dev/tty9" ; X=$LOG ; ERR=$X
 
 case "$WINDOW_MANAGER" in
 	openbox|lxde*|icewm*|xfce4|compiz|karmen|dwm|fluxbox*|razor*|mate*)

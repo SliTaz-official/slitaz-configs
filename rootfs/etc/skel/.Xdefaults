@@ -14,6 +14,7 @@ xterm*scrollBar:	off
 xterm*faceSize:		11
 xterm*faceName:		xft:Monospace:autohint=true
 xterm*faceNameDoublesize: WenQuanYi WenQuanYi Micro Hei Mono-11
+xterm*utf8:                       2
 xterm*deleteIsDEL:	false
 xterm*metaSendsEscape:	true
 xterm*eightBitInput:	true

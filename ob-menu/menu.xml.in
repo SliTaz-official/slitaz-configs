@@ -52,6 +52,9 @@ cat <<EOT
   <item label="$(gettext 'Activate composite')">
     <action name="Execute"><command>xcompmgr</command></action>
   </item>
+  <item label="$(gettext 'Activate composite') server-side compositing. Faster.">
+    <action name="Execute"><command>xcompmgr -a</command></action>
+  </item>
   <item label="$(gettext 'Activate shadows')">
     <action name="Execute"><command>xcompmgr -c -r 10 -o 0.5</command></action>
   </item>
