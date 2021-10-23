@@ -7,7 +7,11 @@ tazbox mkmenu
 
 [ "$1" ] && WINDOW_MANAGER="$1"
 
-EXEC="exec dbus-launch --sh-syntax --exit-with-session"
+if [ -f '/usr/bin/ck-launch-session' ] ; then
+	EXEC="exec ck-launch-session dbus-launch --sh-syntax --exit-with-session"
+else
+	EXEC="exec dbus-launch --sh-syntax --exit-with-session"
+fi
 
 LOG="/dev/tty9" ; X=$LOG ; ERR=$X
 
